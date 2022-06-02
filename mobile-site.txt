@@ -1,0 +1,3427 @@
+<?php     $mobileheader_include ='  <link rel="stylesheet" href="https://www.myellensburg.com/mobile-styles.css" /> ';
+
+
+
+   if(isset($c_ref) && $c_ref=='263' or isset($c_ref) && $c_ref=='263/' or isset($c_ref) && $c_ref=='126' or isset($c_ref) && $c_ref=='126/'  or isset($c_ref) && $c_ref=='950' or isset($c_ref) && $c_ref=='950/' or isset($c_ref) && $c_ref=='951' or isset($c_ref) && $c_ref=='951/' or isset($c_ref) && $c_ref=='410' or isset($c_ref) && $c_ref=='410/' or isset($c_ref) && $c_ref=='120' or isset($c_ref) && $c_ref=='120/'){  
+   
+   
+    $mobileheader_include .='  
+  
+
+<link rel="stylesheet" type="text/css" href="https://www.myellensburg.com/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://www.myellensburg.com/slick/slick-theme.css"/>
+  
+  
+  <style type="text/css">
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 88%;
+        margin: 2px auto;
+		
+    }
+	
+
+    .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+	
+	.slidertext {
+		text-align:center;
+		font-family: BrandPro,GothamMediumItalic,Arial,Verdana;
+		color:#000;
+		font-size:18pt;
+		font-weight:normal;
+		
+	}
+  </style>
+  
+  
+  '; }          //print $c_ref;          background-position: right -120px bottom 0; 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   if(isset($c_ref) && $c_ref =='451')  {   $mobileheader_include .='  
+
+
+<link rel="stylesheet" type="text/css" href="https://www.myellensburg.com/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://www.myellensburg.com/slick/slick-theme.css"/>
+  
+  
+  <style type="text/css">
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 90%;
+        margin: 12px auto;
+		max-width:92%;
+		border: 1px solid #000;
+    }
+	.slider-div {
+        margin-left: 10px;
+    }
+	
+
+    .slick-slide {
+      margin: 0;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+	
+	.slidertext {
+		text-align:center;
+		font-family: BrandPro,GothamMediumItalic,Arial,Verdana;
+		color:#000;
+		font-size:18pt;
+		font-weight:normal;
+		
+	}
+  </style>
+  
+ 
+  
+  
+ '; } 
+  
+  
+  
+    if(empty($c_ref))  {  $mobileheader_include .='  
+  
+<link rel="stylesheet" type="text/css" href="https://www.myellensburg.com/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://www.myellensburg.com/slick/slick-theme.css"/>
+  
+  
+  <style type="text/css">
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 90%;
+        margin: 10px auto;
+		max-width:92%;
+		padding: 5px;
+    }
+	
+	
+	.sliderTOP {
+        width: 100%;
+        margin: 10px auto;
+		max-width:100%;
+		padding: 0;
+    }
+	
+	
+	
+	.slider-div {
+        margin: 0;
+    }
+	
+	
+	.homeslider {
+        width: 100%;
+        margin: 0 auto;
+		
+    }
+	
+
+    .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+	
+	.slidertext {
+		text-align:center;
+		font-family: GothamMediumItalic,Arial,Verdana;
+		color:#000;
+		font-size:18pt;
+		font-weight:normal;
+		
+	}
+  </style>
+  
+
+  
+  
+ ';   }         $mobileheader_include .='  
+  
+  
+  <!-- <script src="https://www.myellensburg.com/js/jquery.min.js"></script>  Also removed below what was the date picker, see back up mobile-site -->
+  
+  
+  
+  
+  
+  
+  
+  
+<style>
+
+.google-auto-placed{display:none;}
+.adsbygoogle{display:none;}
+
+
+
+
+
+
+
+#header { position:relative; top:0; left:0; right:0; height:30px; background: transparent; width:35px; float:left; border-right: 0 solid #e7721c; margin-top:-14px;  }
+#header label { padding:0 0.125em; font:1.875em/1.4375em Arial }
+#menu label { padding:0 0.25em; font:2.125em/1.375em Arial }
+#menu .sub-nav .toggle { padding:0 0.3125em; font:1.2em/1.2em Arial; top:0 }
+#header label:hover, #menu label:hover { color:#ccc }
+#main-nav-check, #menu .sub-nav-check { position:absolute; top:-9999px; left:-9999px }
+.toggle { position:absolute; left:0.15em; cursor:pointer; color:#444; }
+.container { background:#fff; min-height:100%; padding:0; margin:0 }
+#menu, #menu .sub-nav { position:absolute; top:0; bottom:0; width:13.75em; background:#FFF; z-index:99999999999999999999; left:-13.75em }
+.container, #menu, #menu .sub-nav {   
+	-webkit-transform:translate(0,0); -ms-transform:translate(0,0); transform:translate(0,0);
+	-webkit-transition:-webkit-transform .25s ease; transition:transform .25s ease
+	}
+#menu ul { background:#FFF; line-height:2em; text-decoration:none; padding:0; list-style:none; margin-top:4.0625em; border-top:1px solid #10599e }
+#menu li { border-bottom:1px solid #333 }
+#menu li a { display:block; font-size:12pt; padding-left:1.5em; color:#10599e; text-decoration:none; font-weight:bold; font-family:TrendSansOne,Arial,Verdana; letter-spacing: -1px;  }
+#menu li a:hover, #menu .toggle-sub:hover { background:#e8873b;font-weight:bold}
+#menu .sub-nav { margin-top:-1px }
+#menu .sub-heading { margin-top:4.0625em; padding-left:1.3125em; color:#e8873b;  }
+#menu .sub-heading:before { content:""; display:block; height:1px; width:13.75em; margin-left:-1.3125em; background:#e8873b; }
+#menu .toggle-sub { font:bold 1.42em/1.42em Arial; color:#fff; background:#0d0d0d; float:right; margin-top:-1.42em; width:2.25em; border-left:1px solid #444; cursor:pointer; text-align:center }
+.container, #menu, #menu .sub-nav { -webkit-transform:translate3d(0,0,0);  } /* http://davidwalsh.name/translate3d */
+
+/* #### - corrects \'unfixing\' bug in Safari - uncomment if you have position:fixed elements inside .container - #### */
+/* @media screen and (-webkit-min-device-pixel-ratio:0) { .container { -webkit-transform:none !important } } */
+
+/* #### - define ids of animated container, menu and sub-menus here - #### */
+#main-nav-check:checked ~ .container,
+#main-nav-check:checked ~ #menu,
+#menu .sub-nav-check:checked ~ #eat-sub, 
+#menu .sub-nav-check:checked ~ #eat-portfolio-sub, 
+#menu .sub-nav-check:checked ~ #eat-portfolio-graphics-sub,
+#menu .sub-nav-check:checked ~ #eat-portfolio-graphics-art-sub,
+#menu .sub-nav-check:checked ~ #eat-portfolio-graphics-art-paintings-sub,
+#menu .sub-nav-check:checked ~ #eat-services-sub, 
+#menu .sub-nav-check:checked ~ #eat-services-seo-sub, 
+#menu .sub-nav-check:checked ~ #event-sub { 
+	-webkit-transform:translate(13.75em,0); -ms-transform:translate(13.75em,0); transform:translate(13.75em,0) 
+	}
+#menu .sub-nav-check:checked ~ #create-sub { 
+	-webkit-transform:translate(13.75em,0); -ms-transform:translate(13.75em,0); transform:translate(13.75em,0) 
+	}
+
+.page-content { padding:1em 2em; max-width:64em; margin:auto }
+.page-content:after { display:block; content:\'\'; height:1px } /* fixes bottom padding issue in IE10 */
+code { display:block; background:#ebebeb; font-size:0.875em; padding:1em 2em; overflow-x:scroll; white-space:nowrap }
+
+  </style>
+  
+  
+  
+  
+  
+  
+  <script>
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages;    
+
+  if ("IntersectionObserver" in window) {
+    lazyloadImages = document.querySelectorAll(".lazy");
+    var imageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var image = entry.target;
+          image.src = image.dataset.src;
+          image.classList.remove("lazy");
+          imageObserver.unobserve(image);
+        }
+      });
+    });
+
+    lazyloadImages.forEach(function(image) {
+      imageObserver.observe(image);
+    });
+  } else {  
+    var lazyloadThrottleTimeout;
+    lazyloadImages = document.querySelectorAll(".lazy");
+    
+    function lazyload () {
+      if(lazyloadThrottleTimeout) {
+        clearTimeout(lazyloadThrottleTimeout);
+      }    
+
+      lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove(\'lazy\');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+      }, 20);
+    }
+
+    document.addEventListener("scroll", lazyload);
+    window.addEventListener("resize", lazyload);
+    window.addEventListener("orientationChange", lazyload);
+  }
+})
+</script>
+
+
+';         // print  $mobileheader_include;
+
+
+
+
+$mobileheader_include_clean = str_replace("<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4619666204790841\" crossorigin=\"anonymous\"></script>", "","".$mobileheader_include."");
+	
+	
+	
+$mobileheader_include_clean .= str_replace("<iframe data-aa='1925476' src='//ad.a-ads.com/1925476?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>", "","".$mobileheader_include."");
+
+
+print  $mobileheader_include_clean;
+
+
+
+
+
+
+
+
+
+
+
+
+?>
+  
+  </head>
+<body>
+
+                                                                
+<div style="background-image:url(https://www.myellensburg.com/images/top-nav-july.jpg);background-position: bottom center;  background-size: cover;border:0px solid #0b589d;border-top-width:4px;">   
+
+<div style="border:0px solid #CCC; padding:20px;margin: 0 auto;text-align:center;"><?php echo'<a href="'.$url.'" title="'.$url.'"><img src="'.$url.'/images/myellensburg-logo-2020.png" style="width:100%;max-width:451px;"></a>';?></div>  
+
+ </div>
+
+
+
+     
+        
+
+
+<input type="checkbox" id="main-nav-check"/>
+<div id="menu"> 
+	<label for="main-nav-check" class="toggle" onClick="" title="Close">&times;</label>
+	<ul>
+	    <li><a href="<?php print $url;?>/">HOME</a></li>
+        <li><a href="<?php print $url;?>/eat/">EAT</a> 
+        
+        
+      <?php     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='2' && `cat_display` ='Y' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+			 
+			 $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){
+				
+				echo'
+				
+				<label for="eat" class="toggle-sub" onClick="">&#9658;</label>
+	    	<input type="checkbox" id="eat" class="sub-nav-check"/>
+                <ul id="eat-sub" class="sub-nav">
+			    	<li class="sub-heading">EAT <label for="eat" class="toggle" onClick="" title="Back">&#9668;</label></li>
+				
+				';
+				
+				
+				
+				/*while($subtype = mysql_fetch_array($queryresult3))  {   */     while ($subtype = $sqlquery3->fetch_assoc())   {
+            
+            
+        
+        echo' <li><a href="'.$url.'/eat/'.$subtype["cat_pagename"].'">'.$subtype["cat_name"].'</a></li>
+        
+        
+        ';}  echo'</ul>';}
+		
+		?>
+        
+        
+	    </li>
+        <li><a href="<?php print $url;?>/stay/">STAY</a> 
+	    </li>
+	    <li><a href="<?php print $url;?>/play/">THINGS TO DO</a> 
+	    </li>
+        <li><a href="<?php print $url;?>/play/outdoor-activities">OUTDOOR ACTIVITIES</a> 
+        </li>
+        <li><a href="<?php print $url;?>/tournaments/">TOURNAMENTS</a> 
+        </li>
+        <li><a href="<?php print $url;?>/timeline">HISTORICAL TIMELINE</a> 
+        </li>
+        <li><a href="<?php print $url;?>/events/">EVENTS</a> 
+        
+            
+      <?php     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='5' && `cat_display` ='Y' && `cat_id` !='103' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+		    
+			 $num_subtype =  $sqlquery3->num_rows;
+			
+			if($num_subtype >'0'){
+				
+				echo'
+				
+				<label for="event" class="toggle-sub" onClick="">&#9658;</label>
+	    	<input type="checkbox" id="event" class="sub-nav-check"/>
+                <ul id="event-sub" class="sub-nav">
+			    	<li class="sub-heading">EVENTS <label for="event" class="toggle" onClick="" title="Back">&#9668;</label></li>
+				<li><a href="'.$url.'/events/">EVENT CALENDAR</a></li>
+				<li><a href="'.$url.'/plan-your-ellensburg-rodeo-stay/">PLAN YOUR ELLENSBURG RODEO STAY</a></li>
+				<li><a href="'.$url.'/plan/plan-an-event/">PLAN AN EVENT</a></li>
+				';
+				
+				
+				
+				/*  while($subtype = mysql_fetch_array($queryresult3))  {   */   while ($subtype = $sqlquery3->fetch_assoc())   {
+            
+            
+        
+        echo' <li><a href="'.$url.'/events/'.$subtype["cat_pagename"].'">'.$subtype["cat_name"].'</a></li>
+        
+        
+        ';}  echo'</ul>';}  
+		
+		?>
+        
+	    </li>
+	    <li><a href="<?php print $url;?>/plan/">PLAN</a></li>
+        <li><a href="<?php print $url;?>/plan/gathering-spaces/">GATHERING SPACES</a></li>
+        <li><a href="<?php print $url;?>/local-businesses/">LOCAL BUSINESSES</a></li>
+        <li><a href="<?php print $url;?>/new-businesses/">NEW IN ELLENSBURG</a></li>
+        <li><a href="<?php print $url;?>/plan/maps/">MAPS</a></li>
+        <li><a href="<?php print $url;?>/blog/">BLOG</a></li>
+	    <li><a href="<?php print $url;?>/plan/visitor-center/">VISITOR CENTER</a></li>
+        <li><a href="<?php print $url;?>/media/media-room/">MEDIA ROOM</a></li>
+        <li><a href="<?php print $url;?>/contactus/">CONTACT</a></li>
+	</ul>
+</div><!-- closing "#menu"  -->
+
+<div class="container">
+
+	<!-- closing "#header" -->
+
+	<!--<div class="page-content">
+
+		
+       	</div><!-- closing ".page-content" --> 
+        
+    <?php
+	
+	 if(isset($_POST["search_txt"]))  {   $search_txt =$_POST["search_txt"];   $prefill ='';
+	 
+	 
+	 
+	 }else{  $search_txt ='Search Site';$prefill =' onFocus="if(this.value==\''.$search_txt.'\')this.value=\'\';" onBlur="if(this.value==\'\')this.value=\''.$search_txt.'\';"/';  } 
+					 ?>
+        
+
+<table border="0" cellspacing="0" height="37" width="100%" style="margin-top:1px"><tr><form action="<?php print $url;?>/search.php?m=true" method="post">
+<td align="left"> 
+<input type="image" align="top" name="go" src="<?php print $url;?>/images/go-mobile.png" style="z-index:100;position:relative;border: 0px solid #000;width:33px;height:35px; margin: 0px 0 0 -5px;float:right;">
+<input type="text" name="search_txt" value="<?php print $search_txt;?>" style="z-index:10;position:relative;background-repeat:no-repeat;width:82%; height:33px; padding:0 0 0 12px;background-color: #fff; border: 0px solid #CCC;font-size:12pt;color:#444;" <?php print $prefill;?>>
+</td><td width="50"><div id="header">
+		<label for="main-nav-check" class="toggle" onClick="" title="Menu">&#x2261;</label>
+</div></td></form>
+</tr></table>
+	<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3939850173581632"
+     data-ad-slot="7360118643"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div style="position:relative;z-index:999999;background-image:url(<?php print $url;?>/images/ss/top-slide-bg.png); background-repeat:no-repeat; background-size: 100%; height:50px;"></div>
+
+<!--
+<div style="position:relative;z-index:99999;background-image:url(<?php print $url;?>/cats/126.jpg); background-repeat:no-repeat; background-size: 100%; height:280px; margin:-50px 0 0 0">
+</div>-->
+
+<?php   
+
+
+  if(isset($search))  {  echo'
+  
+  <div align="center" style="text-align:right;color:#444; position:relative;z-index:9999999;font-size:9pt; margin: -35px 12px 0 0">&nbsp;
+  
+   <a href="'.$url.'/">Home</a> |  Search Site
+  </div>
+  
+        <div style="font-weight:bold; font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#10599e;padding:12px 12px 0 12px; letter-spacing: -5px; line-height:26pt">SEARCH SITE</div>
+
+';
+     
+       include("includes/search_incld.php");
+
+
+
+        //echo'<br><br>'; 
+		
+		
+		
+		    }   //////////////  end search
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(empty($c_ref) && empty($search)){  
+  
+
+ ?>
+ 
+ 
+ 
+ 
+ 
+ 
+  
+   <?php  if($homepage ==true){   ///slideshow or video ?>
+   
+<!-- <div id="wrapper">    
+    <div style="position:relative;z-index:999999;background-image:url(images/ss/top-slide-bg.png); background-repeat:no-repeat; background-size: 100% 100%; height:70px;"></div>
+        
+        <div class="callbacks_container" style="margin-top:-70px">   -->  
+        
+        
+        
+        <div style="margin-top:-44px; border-top: 0px solid #0d5b9d">
+        
+        
+        <?php
+
+
+                /* new for video embed */     $_GET["zoomslider"] ='true';     //  $_GET["mp4"] ='true';    //$_GET["rodeocity"] ='true';  
+
+
+if(isset($_GET["zoomslider"])){    ?>
+
+<!--start-->
+  
+   <div id="ninja-slider">
+        <div class="slider-inner">
+            <ul>
+                <li>
+                    <a class="ns-img" href="2/img/slide1_mobile.jpg"></a>
+                    <div class="caption" style="margin-top:-100px;letter-spacing: -3px;line-height:14pt;font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#FFF;font-weight:normal">
+                    
+                    
+                    STAY
+                    
+<br /><br />
+
+
+
+
+
+<span style="font-family:BrandPro; font-size:18pt;color:#fff;line-height:18pt;letter-spacing: 1px;">Let us host you</span><br />
+
+<div style="position: relative; z-index: 999990; background-color:#000; padding: 4px;letter-spacing: 0px; font-size:14pt; font-family:Arial, Helvetica, sans-serif;border-radius:4px;width:300px;margin: 10px auto;"><a class="white" href="<?php print $url;?>/stay/">Find Local Lodging</a></div></div>
+
+
+
+               </li>
+                <li><a class="white" href="<?php print $url;?>/play/">
+                    <a class="ns-img" href="2/img/slide2_mobile.jpg"></a>
+                    <div class="caption" style="margin-top:-100px;letter-spacing: -3px;line-height:14pt;font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#FFF;font-weight:normal">
+                    
+                    
+                    EXPLORE
+                    
+<br /><br />
+
+
+<span style="font-family:BrandPro; font-size:18pt;color:#fff;line-height:18pt;letter-spacing: 1px;">Let us inspire you with regional art forms</span><br />
+
+<div style="position: relative; z-index: 999990; background-color:#000; padding: 4px;letter-spacing: 0px; font-size:14pt; font-family:Arial, Helvetica, sans-serif;border-radius:4px;width:300px;margin: 10px auto;"><a class="white" href="<?php print $url;?>/play/">Explore Local Attractions</a></div></div>
+
+
+
+               </a></li>
+                <li><a class="white" href="<?php print $url;?>/eat/">
+                    <a class="ns-img" href="2/img/slide3_mobile.jpg"></a>
+                    <div class="caption" style="margin-top:-100px;letter-spacing: -3px;line-height:14pt;font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#FFF;font-weight:normal">
+                    
+                    
+                    EAT
+                    
+<br /><br />
+
+
+<span style="font-family:BrandPro; font-size:18pt;color:#fff;line-height:18pt;letter-spacing: 1px;">Let us pair you with the perfect local blend</span><br />
+
+<div style="position: relative; z-index: 999990; background-color:#000; padding: 4px;letter-spacing: 0px; font-size:14pt; font-family:Arial, Helvetica, sans-serif;border-radius:4px;width:300px;margin: 10px auto;"><a class="white" href="<?php print $url;?>/eat/">Get a Taste for Local Dining</a></div></div>
+
+
+
+               </a>
+                </li>
+                <li>
+                    <a class="white" href="<?php print $url;?>/events/">
+                    <a class="ns-img" href="2/img/slide4_mobile.jpg"></a>
+                    <div class="caption" style="margin-top:-100px;letter-spacing: -3px;line-height:14pt;font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#FFF;font-weight:normal">
+                    
+                    
+                    EVENTS
+                    
+<br /><br />
+
+
+<span style="font-family:BrandPro; font-size:18pt;color:#fff;line-height:18pt;letter-spacing: 1px;">Let us handle your adventure</span><br />
+
+<div style="position: relative; z-index: 999990; background-color:#000; padding: 4px;letter-spacing: 0px; font-size:14pt; font-family:Arial, Helvetica, sans-serif;border-radius:4px;width:300px;margin: 10px auto;"><a class="white" href="<?php print $url;?>/events/">Uncover Our Region's Top Events</a></div></div>
+
+
+
+               </a>
+                </li>
+                <li>
+                    <a class="white" href="<?php print $url;?>/plan/">
+                    <a class="ns-img" href="2/img/slide5_mobile.jpg"></a>
+                    <div class="caption" style="margin-top:-100px;letter-spacing: -3px;line-height:14pt;font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#FFF;font-weight:normal">
+                    
+                    
+                   PLAN
+                    
+<br /><br />
+
+
+<span style="font-family:BrandPro; font-size:18pt;color:#fff;line-height:18pt;letter-spacing: 1px;">Let us welcome you</span><br />
+
+<div style="position: relative; z-index: 999990; background-color:#000; padding: 4px;letter-spacing: 0px; font-size:14pt; font-family:Arial, Helvetica, sans-serif;border-radius:4px;width:300px;margin: 10px auto;"><a class="white" href="<?php print $url;?>/plan/">Plan Your Visit</a></div></div>
+
+
+
+               </a>
+                </li>
+            </ul>
+            <div class="navsWrapper">
+                <div id="ninja-slider-prev"></div>
+                <div id="ninja-slider-next"></div>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+
+
+
+
+<?php if (empty($_GET["slider"]))  {       $set_a_width ='style="width:100%;"';               ?>
+
+
+  <section class="variable-width sliderTOP">
+
+    <div class="slidertext">
+      <a href="https://www.myellensburg.com/play/"><img <?php print $set_a_width;?> class="image" src="https://www.myellensburg.com/images/link-slider-exploreB.jpg" /></a>
+ </div>
+ 
+ 
+ <div class="slidertext">
+      <a href="https://www.myellensburg.com/eat/"><img <?php print $set_a_width;?> class="image" src="https://www.myellensburg.com/images/link-slider-dineB.jpg" /></a>
+ </div>
+ 
+ 
+ 
+ 
+     <div class="slidertext">
+      <a href="https://www.myellensburg.com/events/"><img <?php print $set_a_width;?> class="image" src="https://www.myellensburg.com/images/link-slider-eventsB.jpg" /></a>
+ </div>
+ 
+ 
+ <div class="slidertext">
+      <a href="https://www.myellensburg.com/plan/"><img <?php print $set_a_width;?> class="image" src="https://www.myellensburg.com/images/link-slider-planB.jpg" /></a>
+ </div>
+ 
+ 
+  <div class="slidertext">
+      <a href="https://www.myellensburg.com/plan/maps/"><img <?php print $set_a_width;?> class="image" src="https://www.myellensburg.com/images/link-slider-mapsC.jpg" /></a>
+ </div>
+ 
+  
+  <div class="slidertext">
+      <a href="https://www.myellensburg.com/local-businesses/"><img <?php print $set_a_width;?> class="image" src="https://www.myellensburg.com/images/link-slider-localB.jpg" /></a>
+ </div>
+ 
+
+
+</section>
+
+
+
+
+<?php } ?>
+
+
+
+
+
+
+
+
+
+<?php      }}  ?>
+
+
+ 
+ 
+ 
+ 
+ 
+
+<?php   }    ////for gold buckle  ?>
+
+
+
+
+
+<?php  //}    //// for after gold buckle
+
+
+
+
+
+
+
+
+
+if(isset($c_ref)){  
+
+
+
+if(isset($c_ref) && $cat_style =='0' or isset($banner) && $banner !=''){   ////custom page, do not show breadcrumb!!!!!!!!!
+			
+			}else{
+				
+				
+				
+				
+				echo'
+
+
+
+
+<div align="center" style="text-align:right;color:#444; position:relative;z-index:9999999;font-size:9pt; margin: -35px 12px 0 0">&nbsp;
+'; 
+  
+  
+ //$urlppath =''.$url.'/';
+  //if(isset($cat4_dir)) {$urlppath .= ''.$cat4_dir.'/';}
+  //if(isset($cat3_dir)) {$urlppath .= ''.$cat3_dir.'/';}
+  // if(isset($cat2_dir)) {$urlppath .= ''.$cat2_dir.'/';}
+   //if(isset($cat_dir)) {$urlppath .= ''.$cat_dir.'';}
+   
+   
+        //echo $urlppath;    
+		
+		    ?>  <a href="<?php print $url;?>">Home</a>  
+	  
+
+
+	 <?php 
+	 
+	 
+	 $this_cat_parent =''; 
+				$this_cat_name ='';
+						$this_cat_url ='';     
+	 
+	 
+	 $cat_num = $mysqli->query("SELECT * FROM `categories` WHERE `cat_id` ='".$c_ref."'");
+	
+           //$cat_sublink_result = mysql_query($cat_num);
+				// if($sublink = mysql_fetch_array($cat_sublink_result)){
+					 
+					 
+					 $sublink = $cat_num->fetch_assoc();  {  
+				 
+			            $this_cat_parent =$sublink["parent_cat"]; 
+						$this_cat_name =$sublink["cat_name"];
+						$this_cat_url =$sublink["cat_pagename"];/* echo''.$findparent.''; */  }
+		 
+
+					
+					////find path
+					
+					$dir1 ='';  $dir2 ='';  $dir3 ='';  $dir4 =''; $dir5 ='';  $dir6 =''; 
+					
+					
+			if($this_cat_parent !='0'){
+				
+				$p1 = $mysqli->query("SELECT `cat_id`,`cat_pagename`,`cat_name`,`parent_cat` FROM `categories` WHERE `cat_id` ='".$this_cat_parent."'");
+				//$p1_result = mysql_query($p1); 
+				
+				   /* if($par1 = mysql_fetch_array($p1_result)){    (   */
+				
+				$par1 = $p1->fetch_assoc();  { 
+				$dir1 =''.$par1["cat_pagename"].'/'; $dir1name =''.$par1["cat_name"].''; }
+					
+			                               }		
+										   
+										   
+										
+										   
+										   
+										   
+										   
+										   
+										   								  										  
+										  
+			if(isset($p1) && $par1["parent_cat"] !='0'){
+				
+				$p2 = $mysqli->query("SELECT `cat_id`,`cat_pagename`,`cat_name`,`parent_cat` FROM `categories` WHERE `cat_id` ='".$par1["parent_cat"]."'");
+				//$p2_result = mysql_query($p2); 
+				
+				   /* if($par2 = mysql_fetch_array($p2_result)){     */
+				
+				
+				$par2 = $p2->fetch_assoc();  { 
+				$dir2 =''.$par2["cat_pagename"].'/';  $dir2name =''.$par2["cat_name"].'';  }
+					
+			                               }
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+			if(isset($p2) && $par2["parent_cat"] !='0'){
+				
+				$p3 = $mysqli->query("SELECT `cat_id`,`cat_pagename`,`cat_name`,`parent_cat` FROM `categories` WHERE `cat_id` ='".$par2["parent_cat"]."'");
+				//$p3_result = mysql_query($p3); 
+				
+				    /* if($par3 = mysql_fetch_array($p3_result)){    */
+				
+				
+				$par3 = $p3->fetch_assoc();  { 
+				$dir3 =''.$par3["cat_pagename"].'/';    $dir3name =''.$par3["cat_name"].''; }
+					
+			                               }
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+										   
+			if(isset($p3) && $par3["parent_cat"] !='0'){
+				
+				$p4 = $mysqli->query("SELECT `cat_id`,`cat_pagename`,`cat_name`,`parent_cat` FROM `categories` WHERE `cat_id` ='".$par3["parent_cat"]."'");
+				//$p4_result = mysql_query($p4);
+				
+				     /* if($par4 = mysql_fetch_array($p4_result)){   */
+					 
+					 
+					 $par4 = $p4->fetch_assoc();  {  
+				$dir4 =''.$par4["cat_pagename"].'/';  $dir5name =''.$par4["cat_name"].'';  }
+					
+			                               }
+							  
+
+				
+				
+		if(isset($dir4) && $dir4 !=''){ echo ' | <a href="'.$url.'/'.$dir4.'" class="breadcrumb">'.$dir4name.'</a>';}	
+		if(isset($dir3) && $dir3 !=''){ echo ' | <a href="'.$url.'/'.$dir4.''.$dir3.'" class="breadcrumb">'.$dir3name.'</a>';}	
+		if(isset($dir2) && $dir2 !=''){ echo ' | <a href="'.$url.'/'.$dir4.''.$dir3.''.$dir2.'" class="breadcrumb">'.$dir2name.'</a>';}	
+		if(isset($dir1) && $dir1 !=''){ echo ' | <a href="'.$url.'/'.$dir4.''.$dir3.''.$dir2.''.$dir1.'" class="breadcrumb">'.$dir1name.'</a>';}		
+	    //if(isset($c_ref) && $c_ref !=''){echo ' | <a href="'.$url.'/'.$dir4.''.$dir3.''.$dir2.''.$dir1.''.$this_cat_url.'" class="breadcrumb">'.$this_cat_name.'</a>';}
+		if(isset($c_ref) && $c_ref !=''){echo ' | '.$this_cat_name.'';}	
+	
+	
+	 echo'</div>';
+	 
+	 
+	 	}    ////END custom page, do not show breadcrumb!!!!!!!!!
+		
+	 
+	$centerit =''; if($cat_style =='0'){  $centerit ='text-align:center;';   /* center header */   }
+	
+	
+	 if(isset($banner) && $banner !=''){  /* print $banner;
+		
+		
+		<div id="wrapper">
+         
+         <div style="position:relative;z-index:999999;background-image:url(images/ss/top-slide-bg.png); background-repeat:no-repeat; background-size: 100% 100%; height:70px;"></div>
+        
+        <div class="callbacks_container" style="margin-top:-70px">
+		
+		
+		*/
+		
+	
+			echo'<img src="'.$url.'/cats/'.$banner.'" style="min-width:100%;max-width:100%;margin-top:-45px">';
+			
+			   $set_margin ='margin: -38px 0 0 0;padding: 10px 50px 12px 0; opacity:0.7; background-color:#FFF;';
+			
+		}
+		
+		
+		
+	 
+echo'<a name="offers"></a>
+
+<div style="font-weight:bold;'.$centerit.' font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#10599e;padding:12px 12px 0 12px; letter-spacing: -5px;line-height:26pt">
+
+';
+if($cat_style =='0' && $cat_sort !='0'){ echo'
+<span style="font-family:Arial,Verdana;font-size:14pt;color:#222;letter-spacing:0px;font-weight:normal;">STORY #'.$cat_sort.'</span><br>';   }
+
+
+
+ if($c_ref =='451'){  echo'<div align="center">'.$cat_name.'</div>';  }
+	
+	 elseif($c_ref =='452'){  echo'<div style="font-size:18pt;letter-spacing:-1px">'.$cat_name.'</div>';  }
+	 
+	 
+	 
+	 
+	 else{
+		 
+		 
+		 echo''.$cat_name.'';
+		 
+		 
+		 
+	 }
+	 
+	 
+
+
+
+
+
+if(isset($cat_subname) && $cat_subname !=''){   echo'
+<div style="font-weight:normal; font-family:Brandpro,Arial,Verdana;font-size:21pt;color:#e8873c;padding: 12px 0 12px 0;letter-spacing: 1px;"><em>'.$cat_subname.'</em></div>';}
+
+
+
+echo'</div>'; 
+
+  $desc = str_replace("float:left", "", $desc); 
+    $longdesc = str_replace("float:left", "", $longdesc); 
+	
+	  $desc = str_replace("width:28%", "", $desc); 
+        $longdesc = str_replace("width:28%", "", $longdesc); 
+		
+		$desc = str_replace("max-width:69%", "max-width:99%", $desc); 
+        $longdesc = str_replace("max-width:69%", "max-width:99%", $longdesc); 
+		
+	
+  	  $desc = str_replace("margin:2%", "margin:2% 2% 4% -4px", $desc); 
+        $longdesc = str_replace("margin:2%", "margin:2% 2% 4% -4px", $longdesc); 
+		
+		
+		  $desc = str_replace("http://www.ellensburg", "https://www.ellensburg", $desc);  
+		    $longdesc = str_replace("http://www.ellensburg", "https://www.ellensburg", $longdesc);  
+			
+			
+			 $desc = str_replace("http://www.myellensburg", "https://www.myellensburg", $desc);  
+		    $longdesc = str_replace("http://myellensburg", "https://www.myellensburg", $longdesc);  
+		
+		
+		
+		
+		if($cat_event_buytickets_link !=''){echo'
+
+ <div style="padding:8px; border: 1px solid #CCC; width:90%;border-radius:0.4em 0.4em 0.4em 0.4em; font-size:18pt;
+		-moz-border-radius:0.4em 0.4em 0.4em 0.4em;text-align:center;margin: 0 auto"><strong><a href="'.$url.'/tracking.php?name='.$cat_name.'&url='.$cat_event_buytickets_link.'" class="orange" target=_blank>Buy Tickets / Register</a></strong></div>
+		
+		';}
+		
+		 
+		 
+		 
+		 
+		//echo'['.$longdesc.']';
+		
+		
+		     if($c_ref !='357'){    ///////do not use for hidden treasures
+			 
+			 echo'<div style="font-weight:normal; font-family:Arial,Verdana;font-size:12pt;color:#444;padding: 0 12px 12px 18px; border: 0px solid #000;">
+  
+  ';}
+  
+  
+     if($parent_cat =='274' or $c_ref =='168')  {  /////featured busniesses
+	 
+	 
+	echo'  <style type="text/css">
+ 
+ .youtube-video {
+	 
+	 float:none; clear:both; }
+ 
+ </style>';
+	
+	
+	     //$longdesc = str_replace("</iframe></div>", "</iframe></div><br /><br /><br /><br />", $longdesc);
+		    //$desc = str_replace("</iframe></div>", "</iframe></div><br /><br /><br /><br />", $desc);
+	
+	
+                         }
+						 
+					 if($c_ref =='168')  { 	  echo' 
+						 
+		<iframe class="youtube-video" src="https://www.youtube.com/embed/Wr38cjEQh68" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						 
+						 
+						 ';}
+						 
+						 
+						 
+						 
+						 
+						 
+						 
+						
+						 
+						 
+						 
+						   if($desc =='' or $desc =='<br>' or $desc =='<br />'){ echo''.$longdesc.'';}else{echo''.$desc.'';}
+						   
+						   
+						       ////  if($c_ref =='141'){   /* bares n broncs */     include("includes/bares_n_broncs_contest.php");  }
+
+
+  
+						 
+						 if($c_ref =='518')  {  
+		
+		
+		include("includes/customize-your-trip.php");
+		
+		
+		}
+		
+		
+		
+		
+  
+  
+  if($cat_style =='0' && $parent_cat !='351'){  ///start prev & next story links
+  
+  
+  
+    //if(mysql_result($pg,0,"parent_cat") !='351'){    ///fix for locals favorites pages  // do not show more stories links
+  
+  
+  
+ echo'<div style="margin: 33px auto;width:100%;text-align:center;">
+ 
+ 
+  <span style="font-family:BrandPro;font-size:26pt;">To read more stories, click below!</span>
+ <br>
+<br>
+
+
+ 
+ <table style="width:100%;"><tr>
+ <td align="left" valign="middle" style="width:25%;vertical-align:middle;border-right:1px solid #CCC;text-align:left;font-size:16pt">';
+ 
+ 
+  $sqlquery3 = $mysqli->query("SELECT `cat_pagename`,`cat_name` FROM `categories` WHERE  `parent_cat` ='274' && `cat_id` !='".$c_ref."' && `cat_sort` < '".$cat_sort."' && `cat_display` ='Y' ORDER BY `cat_sort` DESC LIMIT 0,1");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_sub = mysql_num_rows($queryresult3);
+			
+			
+			 $num_sub =  $sqlquery3->num_rows;	
+			 
+   
+   if($num_sub >'0'){   
+   
+ //  while($sub = mysql_fetch_array($queryresult3))  { 
+   
+   
+     while ($sub = $sqlquery3->fetch_assoc())   { 
+	 
+	  echo'<a title="Previous Profile" href="https://www.myellensburg.com/featured-businesses/'.$sub["cat_pagename"].'"><div class="prev-btn"></div></a>';  }  
+   
+   }   else { //echo'&nbsp;'; 
+   
+   
+   
+   
+   
+   $sqlquery3 = $mysqli->query("SELECT `cat_pagename`,`cat_name` FROM `categories` WHERE  `parent_cat` ='274' && `cat_id` !='".$c_ref."' && `cat_display` ='Y' ORDER BY `cat_sort` DESC LIMIT 0,1");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_sub = mysql_num_rows($queryresult3);
+			 
+			 
+			 $num_sub =  $sqlquery3->num_rows;	
+			 
+   
+   if($num_sub >'0'){   
+   
+  // while($sub = mysql_fetch_array($queryresult3))  {
+	   
+	   
+	     while ($sub = $sqlquery3->fetch_assoc())   { 
+		 
+		   echo'<a title="Previous Profile" href="https://www.myellensburg.com/featured-businesses/'.$sub["cat_pagename"].'"><div class="prev-btn"></div></a>';  }  
+   
+   } 
+   
+   }
+   
+ echo'
+   
+ </td>
+ <td style="width:50%;vertical-align:middle;border:0px solid #CCC;text-align:center;font-size:14pt">
+ <a href="http://www.myellensburg.com/locally-owned-businesses-in-ellensburg/">Back to Featured Businesses</a></td>
+ <td align="right" valign="middle" style="width:25%;vertical-align:middle;border-left:1px solid #CCC;text-align:right;font-size:16pt">';
+ 
+ 
+  $sqlquery3 =  $mysqli->query("SELECT `cat_pagename`,`cat_name` FROM `categories` WHERE  `parent_cat` ='274' && `cat_id` !='".$c_ref."' && `cat_sort` > '".$cat_sort."' && `cat_display` ='Y' ORDER BY `cat_sort` ASC LIMIT 0,1");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_sub = mysql_num_rows($queryresult3);
+			
+			$num_sub =  $sqlquery3->num_rows;	
+			 
+   
+   if($num_sub >'0'){   //$result_found ='1';  echo'result...';
+   
+  // while($sub = mysql_fetch_array($queryresult3))  { 
+   
+   
+   while ($sub = $sqlquery3->fetch_assoc())   { 
+   
+    echo'<a title="Next Profile" href="https://www.myellensburg.com/featured-businesses/'.$sub["cat_pagename"].'"><div class="next-btn"></div></a>';  }  
+   
+   }   else { //echo'&nbsp;'; 
+   
+   
+   
+   
+   
+   $sqlquery3 = $mysqli->query("SELECT `cat_pagename`,`cat_name` FROM `categories` WHERE  `parent_cat` ='274' && `cat_id` !='".$c_ref."' && `cat_display` ='Y' ORDER BY `cat_sort` ASC LIMIT 0,1");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		     //$num_sub = mysql_num_rows($queryresult3);
+			 
+			 	$num_sub =  $sqlquery3->num_rows;	
+			 
+   
+   if(empty($result_found) && $num_sub >'0'){   
+   
+  //////////// while($sub = mysql_fetch_array($queryresult3))  { 
+   
+   
+   while ($sub = $sqlquery3->fetch_assoc())   { 
+   
+    echo'<a title="Next Profile" href="https://www.myellensburg.com/featured-businesses/'.$sub["cat_pagename"].'"><div class="next-btn"></div></a>';  }  
+   
+   } 
+   
+   }
+   
+ echo'
+ 
+ </td>
+ </tr></table>
+ 
+ </div>
+ 
+ ';
+  
+  
+  
+  
+  
+  
+  } ///end prev & next story links
+  
+  
+  	 if($c_ref =='5'){  
+
+	 
+	 
+    include("includes/event-calendar.php");    }
+	 
+	 if($c_ref =='183'){   include("includes/add-business-event-mobile.php");    }
+	  
+        if($c_ref =='103'){    $c_ref ='5';}   
+	 
+	 
+	 
+	 
+	   if(isset($c_ref) && $c_ref =='376'){   // echo'hello!';	
+		
+	        	include("includes/deals_signup_mobile.php");  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+	 
+	 //if($c_ref =='5'){    
+   
+    //////////////////////if($c_ref =='5'){  $this_ref ='124';  january } else {  $this_ref =$c_ref; }  ////current events page
+	
+	 if($c_ref =='5'){  $this_ref ='171'; } else {  $this_ref =$c_ref; }  ////current events page	
+
+$sqlquery2 = $mysqli->query("SELECT `cat_name`,`cat_image`,`cat_pagename`,`cat_redirect` FROM `categories` WHERE  `parent_cat` ='".$this_ref."' && `cat_display` ='Y' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult2 = mysql_query($sqlquery2);    
+		    // $num_type = mysql_num_rows($queryresult2);
+			
+			$num_type =  $sqlquery2->num_rows;			
+			
+			if($num_type >'0'){ //while($type = mysql_fetch_array($queryresult2))  { 
+			
+			
+			while ($type = $sqlquery2->fetch_assoc())   { 
+				
+				   if(empty($type["cat_redirect"])){ $pg_link =''.$type["cat_pagename"].'';  $target ='';
+				   
+				        // if($c_ref =='5'){   $pg_link =''.$url.'/events/january/'.$type["cat_pagename"].'';  } 
+				   
+				   
+				   }
+				       else{ $pg_link =''.$type["cat_redirect"].''; $target =' target=_blank';}
+					   
+					   
+					   $row_img =''.$type["cat_image"].'';
+					   
+	  // if($c_ref !='5' && empty($_GET["test"])){ echo'		
+	  
+	  
+	  
+	  
+	  
+	  
+	   if($c_ref !='5' && $c_ref !='2' && $c_ref !='4' && $c_ref !='108' && $c_ref !='188'  && $c_ref !='190' && $c_ref !='195'){ echo'		
+	    		   
+
+<div style="text-align:center; padding:5px;margin:2% 2% 4% -4px;border:1px solid #000"><a title="'.$type["cat_name"].'" href="'.$pg_link.'">';
+
+if($type["cat_image"] !=''){echo'<img alt="" src="'.$url.'/cats/'.$row_img.'" style="max-width:100%"></a>';}echo'
+<div style="margin:12px 5px 5px 5px;padding:5px;border-top:1px solid #CCC"><a title="'.$type["cat_name"].'" href="'.$pg_link.'">'.$type["cat_name"].'</a></div></div>
+';            
+
+
+
+        }
+
+
+
+////////////////////////////////////////end if testing for new eat page...  else do the following
+
+
+
+
+
+			else{
+  
+	  
+	  
+	   if(isset($c_ref) && $c_ref =='2' or isset($c_ref) && $c_ref =='4' or isset($c_ref) && $c_ref =='108'){   ////NEW!!!!!!!!!!!!!!!! eat page
+	   
+	   //echo''.$c_ref.'';
+	   
+	   
+	 /*  echo'
+
+<div align="center" style="text-align:left; word-spacing: none;max-width:100%; font-size:14pt; padding:16px; color:#444; position:relative;z-index:99999999;">
+<div style="width:100%;margin-top:-20px;">
+
+';    */
+
+
+if(isset($c_ref) && $c_ref =='2'){   $findparent ='2';}
+
+     if(isset($c_ref) && $c_ref =='4'){   $findparent ='4';}
+	 
+	      if(isset($c_ref) && $c_ref =='108'){   $findparent ='108';}
+		  
+		  
+		  
+			
+		
+		
+		$sqlquery2 =  $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='".$findparent."'  && `cat_display` ='Y' ORDER BY `cat_sort`,`cat_name` ASC");
+	     //$queryresult2 = mysql_query($sqlquery2);    
+		     //$num_type = mysql_num_rows($queryresult2);
+			 
+			 
+			  $num_type =  $sqlquery2->num_rows;
+		    
+			
+			
+			if($num_type >'0'){    $serial ='0'; // while($type = mysql_fetch_array($queryresult2))  {  
+			
+			
+				while ($type = $sqlquery2->fetch_assoc())   {   $serial =++$serial;
+				
+				
+				
+			echo'
+			
+			<!-- <div style="padding:12px;border: 1px solid #CCC;margin:12px;">#'.$serial.'</div> -->
+			
+			<div style="height:800px;background-image:url('.$url.'/cats/'.$type["cat_pagebg"].');background-size:cover">
+			
+			<br><br>
+			
+			<div style="margin:0 auto;text-align:center;background-color:#fff;width:90%;border-radius:4px">';  
+				
+				
+			echo'  <div style="margin:20px;max-width:100%;border:0px solid #555;font-size:12pt;line-height:18pt;">
+			
+			<br>
+
+			
+			<a href="';  if($c_ref =='2'){ echo'https://www.myellensburg.com/eat/';}  echo''.$type["cat_pagename"].'"><h2 style="letter-spacing: -3px;font-family:TrendSansOne,Arial,Verdana;font-size:24pt;color:#10599e;font-weight:normal;line-height:24pt;">'.$type["cat_name"].'</h2></a>
+			
+			
+
+			'.$type["cat_featured_blurb"].'
+			<br />
+			
+			<a href="';  if($c_ref =='2'){ echo'https://www.myellensburg.com/eat/';}  echo''.$type["cat_pagename"].'"><div style="margin: 12px auto;background-color:#000;letter-spacing: -3px;font-family:TrendSansOne,Arial,Verdana;font-size:13pt;color:#FFF;font-weight:normal;padding:8px;text-align:center;border-radius:4px">
+			
+			'; if($findparent =='2'){ echo'FIND ';} echo''.$type["cat_name"].'</div></a>
+
+			
+			<img src="'.$url.'/cats/'.$type["cat_featured_image"].'" alt="'.$type["cat_name"].' in Ellensburg, WA" style="width:360px;max-width:100%;margin-top:16px;">
+			
+			
+			<br>
+<br>
+
+			</div>
+			  </div>
+			
+			<div style="clear:both;"></div>
+			
+			      </div>
+			';
+			
+			}
+			
+			
+			/*  echo'
+			
+			  <div style="clear:both;"></div>
+			</div>
+			
+			   ';  */	
+				
+				
+				
+				
+				
+			}
+			
+			
+			
+	/*	echo'</div>
+		        </div>>';   */	
+			
+		
+		
+   } ////end    if(mysql_result($pg,0,"cat_style") =='2'){   ////NEW!!!!!!!!!!!! eat page
+   
+   
+  
+  
+ 
+  
+   }////////////////////////////////////////end if testing for new eat page...  do the above
+
+
+
+
+
+
+
+
+
+			}  //// end row
+
+
+//}   /////end  if($c_ref =='5'){      
+
+
+
+
+  // if($cat_parent =='103'){ echo'	test ';}
+
+
+
+
+
+
+
+
+
+
+if($c_ref =='5' or $c_ref =='103'){    ////show months
+
+
+
+?>
+
+		
+
+
+<!--
+
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">January</span>
+
+<?php
+
+   ///january
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='124' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	      //$queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+		      $num_subtype =  $sqlquery3->num_rows;
+			
+			
+			if($num_subtype >'0'){   echo'<div class="content">'; //while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';}  ?>
+            
+            </div>
+            
+            
+            -->
+            
+            
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">February</span>
+
+<?php
+
+   ///february
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='125' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+			 
+			  $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">'; //while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';}  ?>
+            
+               </div>
+               
+               
+             
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><strong>March</strong></div>
+
+<?php
+
+   ///march
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='131' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	      //$queryresult3 = mysql_query($sqlquery3);    
+		     //$num_subtype = mysql_num_rows($queryresult3);
+			 
+			   $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){ //while($subtype = mysql_fetch_array($queryresult3))  {
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+				
+
+				echo'<div style="margin-top:4px;font-size:12pt;font-weight:normal;padding-left:15px"><a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}} 
+			
+			else{ echo'<!--<div style="margin-top:4px;font-size:12pt;font-weight:normal;padding-left:15px">There are no events this month.</div> -->
+			
+			<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div>';} ?> 
+            
+            
+            
+                     
+            
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">April</span>
+
+<?php
+
+   ///april
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='132' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     //$queryresult3 = mysql_query($sqlquery3);    
+		     //$num_subtype = mysql_num_rows($queryresult3);
+			 
+			   $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){   echo'<div class="content">';  // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';}  ?>            
+            
+            
+            </div>
+            
+             
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">May</span>
+
+<?php
+
+  ///may
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='137' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+			 
+			  $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){   echo'<div class="content">';    // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/farmers-market/">Farmers Market</a></div>';
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>            
+            
+            
+            </div>
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">June</span>
+
+<?php
+
+  ///june
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='145' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	      //$queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+			
+			 $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){   echo'<div class="content">';   // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/farmers-market/">Farmers Market</a></div>';
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+            
+            </div>
+            
+            
+            
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">July</span>
+
+<?php
+
+   ///july
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='149' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		     //$num_subtype = mysql_num_rows($queryresult3);
+			 
+			 $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">';//while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/farmers-market/">Farmers Market</a></div>';
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>      
+            
+            </div>      
+            
+            
+           
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">August</span>
+
+<?php
+
+   ///august
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='153' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     /// $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+		    
+			$num_subtype =  $sqlquery3->num_rows;
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">';  // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+				
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}}
+			
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/farmers-market/">Farmers Market</a></div>';
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			  ?>            
+            
+            </div>
+            
+             
+          
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">September</span>
+
+<?php
+
+  ///september
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='157' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+		    
+			
+			 $num_subtype =  $sqlquery3->num_rows;
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">';  // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+				
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/first-friday-art-walk/">First Friday Art Walk</a></div>';
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/farmers-market/">Farmers Market</a></div></div>';
+			}  ?>
+            
+            </div>
+            
+            
+                
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">October</span>
+
+<?php
+
+    ///october
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='165' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+		    
+			 $num_subtype =  $sqlquery3->num_rows;
+			 
+			
+			if($num_subtype >'0'){    echo'<div class="content">'; // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="'.$url.'/events/farmers-market/">Farmers Market</a></div></div>';
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>      
+            
+            </div>      
+            
+            
+            
+            
+            
+            
+ <div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">November</span>
+
+<?php
+
+  ///november
+
+     $sqlquery3 =  $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='171' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     //$queryresult3 = mysql_query($sqlquery3);    
+		     //$num_subtype = mysql_num_rows($queryresult3);
+			 
+		     $num_subtype =  $sqlquery3->num_rows;
+			
+			if($num_subtype >'0'){    echo'<div class="content">'; // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+            
+            
+            </div>
+            
+            
+          
+            
+<div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">December</span>
+
+<?php
+
+    ///december
+
+     $sqlquery3 =  $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='175' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     //$queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+			 
+			   $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){  echo'<div class="content">'; //while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	  
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+                       
+            </div>
+            
+            
+            
+            
+            
+            
+          <!--  ////////////////////////////////////////////2019 ------------------- >
+          
+          
+          <div style="margin-top:18px;font-size:34pt;font-weight:normal; padding-left:2px">2019</div>   
+          
+          
+          
+          <div style="margin-top:18px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">January</span>
+
+<?php
+
+   ///january
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='124' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		    // $num_subtype = mysql_num_rows($queryresult3);
+		    
+			  $num_subtype =  $sqlquery3->num_rows;
+			
+			if($num_subtype >'0'){   echo'<div class="content">';  //while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+            
+            </div>
+            
+            
+            
+            
+            
+            
+            <div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">February</span>
+
+<?php
+
+   ///february
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='125' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	      //$queryresult3 = mysql_query($sqlquery3);    
+		     //$num_subtype = mysql_num_rows($queryresult3);
+			 
+			   $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">'; // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+            
+               </div>
+               
+               
+                 <div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">March</span>
+
+<?php
+
+   ///march
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='131' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	     // $queryresult3 = mysql_query($sqlquery3);    
+		     //$num_subtype = mysql_num_rows($queryresult3);
+			 
+			    $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">'; // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+            
+               </div>
+               
+               
+               
+               <div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">April</span>
+
+<?php
+
+   ///april
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='132' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	      //$queryresult3 = mysql_query($sqlquery3);    
+		     //$num_subtype = mysql_num_rows($queryresult3);
+			 
+			    $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">';  //while($subtype = mysql_fetch_array($queryresult3))  {
+				
+					while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+            
+               </div>
+               
+               
+                  <div style="margin-top:8px;font-size:14pt;font-weight:normal; padding-left:2px"><span class="heading">May</span>
+
+<?php
+
+   ///may
+
+     $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='137' && `cat_display` ='Y' && `cat_date` >= '".date("Y-m-d")."' ORDER BY `cat_sort`,`cat_name` ASC");
+	      //$queryresult3 = mysql_query($sqlquery3);    
+		    /* $num_subtype = mysql_num_rows($queryresult3);  */    $num_subtype =  $sqlquery3->num_rows;
+		    
+			
+			
+			if($num_subtype >'0'){    echo'<div class="content">'; // while($subtype = mysql_fetch_array($queryresult3))  {
+				
+				
+				while ($subtype = $sqlquery3->fetch_assoc())   {
+				
+				$subtype["cat_url"] = str_replace('.net', '.com', $subtype["cat_url"]);	
+
+				echo'<div style="margin-top:4px;">
+				<a href="'.$subtype["cat_url"].'">'.$subtype["cat_name"].'</a></div>';
+                
+			}
+			
+			echo'<div style="margin-top:4px;"><a href="https://www.myellensburg.com/events/first-friday-art-walk/">First Friday Art Walk</a></div></div>';
+			}  ?>
+            
+               </div>
+            
+            
+            
+            
+            -->
+            
+            </div></div>
+            
+            
+            
+            
+                                    
+            
+           <?php  }}   ///////////////end current events
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		    
+ 
+  if($c_ref =='190'){      ////////////media room
+	  
+	  
+	  
+	  
+  
+  
+  
+    }
+		 
+	
+	
+      if(isset($c_ref) && $c_ref =='190'){    echo'</div>';  }
+	  
+	  
+	 
+	  
+	  
+	  
+	
+ 
+      if(isset($c_ref) && $c_ref =='274'){ 
+  
+   $sqlquery3 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='".$c_ref."' && `cat_display` ='Y' ORDER BY `cat_sort`,`cat_name` ASC");
+	      //$queryresult3 = mysql_query($sqlquery3);    
+		     //$num_sub = mysql_num_rows($queryresult3);
+			 
+			 $num_sub =  $sqlquery3->num_rows;
+			 
+   
+   if($num_sub >'0'){   $count ='0';
+   
+   
+       echo'<div style="margin: 0 auto;width:94%; max-width:100%; border: 1px solid #fff; text-align:center;">
+	   
+	   
+	   <ul class="ch-grid">
+	   ';
+   
+   
+         /* while($sub = mysql_fetch_array($queryresult3))  {   */    while ($sub = $sqlquery3->fetch_assoc())   { $count =++$count;
+
+				
+
+
+echo'
+
+			 
+     <li class="border">
+     <div class="ch-item" style="background-image:url(../cats/'.$sub["cat_image"].');">	
+		 <div class="ch-info-wrap ch-hover">
+		 <div style="margin:50px;">
+         
+         <a href="'.$sub["cat_pagename"].'" class="video">'.$sub["cat_name"].'<div><img src="../images/videoico4.png" style="width:80px;margin-top:20px"></div></a>
+         
+           </div> </div> </div>
+            </li>
+            
+			
+			
+			
+		';	
+			
+			
+	
+			
+			
+			
+				
+				
+			}
+			
+			              echo'</ul></div>
+						  
+						  <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+';
+			
+   }
+   
+   
+   
+  
+  }
+  
+  
+ 
+
+  
+  
+  
+  echo'</div>';
+  
+  
+  
+  
+  
+  
+     }  ////end if isset $c_ref
+
+
+  if(isset($c_ref) && $c_ref =='543')  {  include("includes/1000shoppingspree_mobile.php");}
+  
+  
+  
+   if(isset($c_ref) && $c_ref =='537'){  include("includes/gathering-spaces.php");  }		  
+				  
+		
+  
+  
+
+ if(isset($c_ref) && $c_ref =='178'){  include("includes/contact_form_mobile.php");  }
+ 
+  if(isset($c_ref) && $c_ref =='270'){  include("includes/business_profile_mobile.php");  }
+  
+    if(isset($c_ref) && $c_ref =='217'){  include("includes/visitor-center-form-mobile.php");  }
+	
+	   if(isset($c_ref) && $c_ref =='205'){  include("includes/visit_request_mobile.php");  }
+	   
+	     if(isset($c_ref) && $c_ref =='239'){  include("includes/visitors-guide-form_mobile.php");  }
+	   
+	       if(isset($c_ref) && $c_ref =='195'){  
+		   
+		   
+		   
+		   echo'<div style="margin: 20px;">';
+		   
+		   include("includes/image_request.php"); 
+		   
+		     echo'</div>';
+			  }
+  
+  
+  
+
+ 
+ 
+ 
+
+  
+  
+  
+  
+ 
+ 
+ 
+ if(isset($c_ref)&& $c_ref =='3'){   ?><div style="padding: 12px 12px 12px 18px;">
+ 
+ 
+<ins class="bookingaff" data-aid="911800" data-target_aid="902434" data-prod="nsb" data-width="250" data-height="250">
+    <!-- Anything inside will go away once widget is loaded. -->
+    <a href="//www.booking.com?aid=902434">Booking.com</a>
+</ins>
+<script async type="text/javascript">
+    (function(d, sc, u) {
+      var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = u + '?v=' + (+new Date());
+      p.parentNode.insertBefore(s,p);
+      })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
+</script>
+
+
+
+<br /><!--
+<a target=_blank href="https://www.airbnb.com/s/Ellensburg--WA--United-States/homes?refinement_paths%5B%5D=%2Fhomes&adults=0&children=0&infants=0&toddlers=0&query=Ellensburg%2C%20WA%2C%20United%20States&click_referer=t%3ASEE_ALL%7Csid%3Aca28ae11-84f4-42bb-b9c4-f8eba1155a0e%7Cst%3AMAGAZINE_HOMES&title_type=MAGAZINE_HOMES&allow_override%5B%5D=&s_tag=kjoUzvzD"><img src="https://www.myellensburg.com/images/airbnb-logo.jpg" style="width:251px;margin: 10px 0 0 0;" /></a>
+
+<br />
+<a target=_blank href="https://www.vrbo.com/results?petIncluded=false&q=Ellensburg%2C%20WA%2C%20USA"><img src="https://www.myellensburg.com/images/vrbo-logo.jpg" style="width:251px;margin: 10px 0 10px 0;" /></a>
+
+-->
+
+</div>
+
+<?php  }
+	 
+	 
+ 
+ 
+   if(isset($c_ref)){ 
+   
+   
+     if(isset($cat_show_subcats) && $cat_show_subcats =='2'){    //echo'TEST';  ////show child pages
+
+$sqlquery2 = $mysqli->query("SELECT * FROM `categories` WHERE  `parent_cat` ='".$c_ref."' && `parent_cat` !='188' && `parent_cat` !='452' && `cat_display` ='Y' ORDER BY `cat_sort`,`cat_name` ASC");
+ //$queryresult2 = mysql_query($sqlquery2);    
+    //$num_type = mysql_num_rows($queryresult2);
+	
+	     $num_type =  $sqlquery2->num_rows;
+		    			
+			
+			if($num_type >'0'){  echo'<br>';   /* while($type = mysql_fetch_array($queryresult2))  {  */   while ($type = $sqlquery2->fetch_assoc())   {
+								
+				   if(empty($type["cat_redirect"])){ $pg_link =''.$type["cat_pagename"].'';  $target ='';
+	   
+				              }
+				   
+				   
+				       else{ $pg_link =''.$type["cat_redirect"].''; $target =' target=_blank'; }
+					   
+					   
+	///';if($sub["cat_image"] !=''){echo'<img alt="" src="'.$url.'/cats/'.$sub["cat_image"].'" align="none" width="100%"><br>';}echo'
+					   
+					   
+	echo'				   
+
+<div style="text-align:left; padding:2px;margin: 0 21px 0 21px;border-top:1px solid #CCC">
+<div style="padding: 5px 12px 5px 10px;">
+ &rsaquo; <a title="'.$type["cat_name"].'" href="'.$pg_link.'"'.$target.'>'.$type["cat_name"].'</a>
+</div>
+</div>
+';
+
+  }
+
+     } 
+
+	    }                   if($c_ref =='3'){      ?>
+		
+		
+		
+		
+       <style>
+ 
+ .booknow { text-align:center; font-size:13pt;font-weight:bold; width:220px;cursor:pointer; background-color:#0b589d; color:#fff; border-radius:0.4em 0.4em 0.4em 0.4em; 
+	-moz-border-radius:0.4em 0.4em 0.4em 0.4em; text-shadow: 1px 1px #044c28;
+	border: 0 solid #044c28; margin: 24px auto;padding: 12px;  }
+	
+ .booknow:hover { background-color:#e38034; text-shadow: none}
+ 
+ 
+ .staydiv { width:100%;background-color:#c3e2fe; color:#fff; text-shadow: none; cursor:pointer; border: 5px solid #FFF;}
+ .staydiv:hover { background-color:#eaf5ff;}
+	
+	
+	.accordion {
+  background-color: #95ccfd;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  width: 92%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-left: 0;
+}
+
+.active, .accordion:hover {
+  background-color: #7ac0ff;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #0b589d;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+	
+	</style>			
+	
+	
+	<?php     
+	
+	
+	
+	
+	
+	 include("includes/stay_listings_mobile.php");       }
+	 
+	 
+	   if(isset($cat_parent) && $cat_parent =='537'){  
+	   
+	   
+	   
+	    
+		echo'
+		
+		
+		<div style="padding:16px;text-align:center;line-height:12pt;">
+
+<strong style="letter-spacing: -2px;font-family:TrendSansOne,Arial,Verdana;font-size:18pt;color:#10599e; ">RESOURCES</strong>
+
+
+<br />
+<br />
+<br />
+
+
+
+<soan style="font-size:11pt;font-weight:bold">
+
+<a href="https://www.myellensburg.com/plan/gathering-spaces/catering/" class="orange">CATERING</a>
+ 
+  <br /> <br />
+
+<a href="https://www.myellensburg.com/plan/gathering-spaces/rentals/" class="orange">PARTY SUPPLIES & DECOR</a> 
+ 
+  <br /> <br />
+
+<a href="https://www.myellensburg.com/plan/gathering-spaces/florists/" class="orange">FLORISTS</a>
+ 
+ <br /> <br />
+ 
+<a href="https://www.myellensburg.com/plan/gathering-spaces/photographers/" class="orange">PHOTOGRAPHERS</a>
+ 
+ <br /> <br />
+ 
+<a href="https://www.myellensburg.com/plan/gathering-spaces/videography-printing/" class="orange">VIDEOGRAPHERS</a>
+ 
+ 
+ <br /> <br />
+
+<a href="https://www.myellensburg.com/plan/gathering-spaces/group-activities/" class="orange">GROUP ACTIVITIES</a>
+ 
+  <br /> <br />
+
+<a href="https://www.myellensburg.com/plan/gathering-spaces/entertainment/" class="orange">ENTERTAINMENT</a>
+
+
+  <br /> <br />
+
+<a href="https://www.myellensburg.com/plan/gathering-spaces/officiants/" class="orange">OFFICIANTS</a>
+
+
+ 
+ 
+ </span>
+
+</div>
+
+';
+		
+		
+		
+		 }		
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+
+       if($c_ref !='2' && $c_ref !='3'){    include("includes/listings_mobile.php");     }
+	   
+	      if(isset($cat_parent) && $cat_parent =='537'){  include("includes/gathering-spaces.php");  }		
+
+
+if(isset($c_ref) && $parent_cat =='452'){   ////GRAB RAND() Posts for the Blog Page
+	   
+	   
+	   echo'
+	   
+	   
+	        <style>
+ 
+ .booknow { text-align:center; font-size:13pt;font-weight:bold; width:220px;cursor:pointer; background-color:#0b589d; color:#fff; border-radius:0.4em 0.4em 0.4em 0.4em; 
+	-moz-border-radius:0.4em 0.4em 0.4em 0.4em; text-shadow: 1px 1px #044c28;
+	border: 0 solid #044c28; margin: 2px auto;padding: 12px;  }
+	
+ .booknow:hover { background-color:#e38034; text-shadow: none}
+ 
+ </style>
+		 
+		 <a href="'.$url.'/blog/">
+	<!-- <div class="button-orange" style="width:250px; padding: 12px;margin: 0 auto; border-radius:4px;color:#fff;font-size:14pt; font-family:MontBold;text-align:center">
+		 -->
+		 
+		 			
+<div class="booknow" style="width:250px; padding: 12px;margin: 33px auto; border-radius:4px;color:#fff;font-size:14pt; text-align:center"> 
+				
+				<a href="https://www.myellensburg.com/blog/" class="white">BACK TO BLOG</a>
+				
+				</div></a>
+	
+';   	 
+		 
+		 
+		 
+		 
+		 
+		 echo'<div align="center">';
+		 
+		 
+		 $sql = $mysqli->query("SELECT * FROM `categories` WHERE `parent_cat`='452' && `cat_display`='N' && `cat_id` !='".$c_ref."' ORDER BY RAND() LIMIT 0,4");
+	//$result = mysql_query($sql);    //$num_rows = mysql_num_rows($result);
+
+       ///if(mysql_num_rows($result) == 0){}else{       
+           /* while ($row=mysql_fetch_array($result)) {   */    while ($row = $sql->fetch_assoc())   {	
+		
+				
+				echo' 
+				
+				<div style="border: 1px solid #f0f0f0; width:38%; vertical-align:top;
+	display: inline-block;
+	margin: 10px; text-align:center;font-size:12pt;padding:6px;line-height:14pt;">		
+			<a href="https://www.myellensburg.com/blog/'.$row["cat_pagename"].'"><img src="../../cats/'.$row["cat_image"].'" style="width:96%;margin: 0 auto;"><br />
+<br />
+'.$row["cat_name"].'</a>
+';
+
+
+       if($row["cat_date"] !='0000-00-00')  {    echo'<div style="margin: 8px; text-align:center;font-size:10pt;color:#999;text-transform:uppercase">'.date("F jS, Y",strtotime($row["cat_date"])).'</div>';  }
+	   
+	   
+	   
+	   echo'
+
+
+				
+				</div>
+				
+				
+				';    }   echo'</div>
+				
+<br /><br />
+
+';   }
+				
+
+
+
+/////////////////////////END blog posts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+	   
+	   
+		
+		////////////////NEW for Beyond Ellensburg Hotels....
+		
+		
+		
+		
+		    if(isset($c_ref) && $c_ref =='3'){   ////stay page
+			
+			
+			echo'
+			
+			
+			<h2 style="font-weight:bold; font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#10599e;padding:12px 12px 0 12px; letter-spacing: -5px;line-height:26pt">
+			
+		
+			Beyond Ellensburg</h2>
+			
+			
+			
+			
+			<br />
+			
+			
+			
+			 <div class="p4_div" style="border-top:1px solid #e7e7e7;width:90%;padding:12px;line-height:18pt;"> 
+			 
+			 
+<div align="center" style="text-align:left;"><a href="https://www.myellensburg.com/tracking.php?type=hotel&name=BrewHouseBoarding&url=https://www.brewhouseboarding.com"  target=_blank title="View Website" class="red"><img src="https://www.myellensburg.com/listings/brew-house-boarding.jpg"  border="0" style="border: 4px solid #fff;-moz-box-shadow: 0px 2px 2px 0px #777; -webkit-box-shadow: 0px 2px 2px 0px #777; box-shadow: 0px 2px 2px 0px #777; margin: 0 10px 6px 5px;width:250px;"></a></div>
+
+ 
+
+			 
+			 <div style="padding: 0 0 2px 8px; margin-left:1px;color:#444;font-weight:700;font-size:14pt;text-align:left; ">Brew House Boarding</a>
+			 
+			 <br />
+Vacation Rental Suites
+			 
+			<br />
+			
+			
+			<a target=_blank href="https://www.google.com/maps?ll=46.983606,-120.417875&z=14&t=m&hl=en&gl=US&mapclient=embed&q=109+Main+St+Kittitas,+WA+98934" class="red" title="View Brew House Boarding Map Location"> <span style="font-size:11pt;font-weight:normal;"><img src="https://www.myellensburg.com/images/map-link.png" alt="mapit_link" align="absmiddle"> <span style="font-weight:normal;">Click for Directions</span></a>
+			
+			 
+			 
+			 
+
+				
+				</div>
+				<div style="padding: 0 0 4px 8px;margin-left:1px;font-size:10pt;color:#777;font-size:11pt;font-weight:600;font-family:Arial,Verdana;text-align:left;">
+				109 Main St. 
+				 |  Kittitas, WA 98934<br /><a href="tel:(509) 968-3388"><span style="font-weight:normal;">(509) 968-3388</span></a>
+				</div>
+				<div style="padding: 0 0 4px 8px; margin-left:1px;font-size:10pt;color:#777;font-size:11pt;font-weight:400;text-align:left;">
+
+
+
+Brew House Boarding is named for the Microbrewery that once occupied the main floor. Notice the Hops plants still growing on the south side of the building. Venture downstairs to enjoy Thrall & Dodge Winery\'s new tasting room. There you can sit and witness the bar and tap tower that was once used by Colockum Craft Brewing.</div>
+				
+				
+				
+				<div style="clear:both;"></div> </div>
+			  
+			  
+		<!--	<div style="border:0px solid #e7e7e7; border-bottom-width:0px;width:96%;padding:12px; text-align:left;font-size:11pt">    &nbsp; <div class="roundcorners" style="background-color:#e8873b;padding:12px;margin:-30px 0 20px 10px;width:150px;text-align:center;font-size:16pt"><a href="https://www.myellensburg.com/tracking.php?type=hotel&name=Brew House Boarding&url=https://www.brewhouseboarding.com?fromMyEllensburg\'); return false;" target=_blank class="white">Book Now</a></div> -->
+			
+			
+			 </div>
+	  
+			  
+			 
+	</td></tr>
+			</table>
+		
+			
+			';  ?>
+            
+            
+                    
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+<?php
+		
+		
+		
+		
+			}  	////////////////end NEW for Beyond Ellensburg Hotels....
+			
+			
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+		 
+		 
+		
+		 
+		    }   
+   
+                else {      if(empty($search))  {   ?>
+        
+      <br>
+  
+  
+  
+  
+  
+  <div align="center">
+  
+  
+  
+  <a class="weatherwidget-io" href="https://forecast7.com/en/47d00n120d55/ellensburg/?unit=us" data-label_1="ELLENSBURG" data-label_2="WEATHER" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="pure" >ELLENSBURG WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+
+
+
+
+        <div style="font-weight:bold; font-family:TrendSansOne,Arial,Verdana;font-size:28pt;color:#10599e;padding:12px 12px 0 12px; letter-spacing: -5px; line-height:26pt">UPCOMING EVENTS</div>
+
+
+
+<br />
+
+Whether you're visiting with the family or on a romantic getaway, don't miss
+upcoming events to enhance your Ellensburg visit!
+
+
+</div>
+
+
+
+
+
+
+   
+   
+   <!-- new event slider -->
+   
+
+<div style="margin: 10px auto;text-align:center;  width: 100%;max-width:96%;color:#888; border: 0px solid #CCC">
+
+<div class="slider-div">
+ 
+  <section class="autoplay slider">
+
+
+
+<?php 
+
+$sqlquery1 = $mysqli->query("SELECT * FROM `categories` WHERE `cat_date` >='".date("Y-m-d")."' && `cat_display` ='Y' && `cat_style` ='5' or `cat_date`<'".date("Y-m-d")."'  && `cat_enddate` !='0000-00-00' && `cat_enddate` >='".date("Y-m-d")."'  && `cat_display` ='Y' && `cat_style` ='5' ORDER BY `cat_date` ASC LIMIT 0,12"); 
+//$queryresult1 = mysql_query($sqlquery1);
+
+
+/*while ($row1=mysql_fetch_array($queryresult1)) {  */   while ($row1 = $sqlquery1->fetch_assoc())   {
+
+
+	$row_alt = strtolower($row1["cat_name"]);
+	$row_alt = str_replace("-", ",", $row_alt);   /// for alt tag formatting
+	$row_alt = str_replace(" ", ",", $row_alt);   /// for alt tag formatting
+	$row_alt = str_replace("(", "", $row_alt);   /// for alt tag formatting
+	$row_alt = str_replace(")", "", $row_alt);   /// for alt tag formatting
+	$row_alt = str_replace('"', '', $row_alt);   /// for alt tag formatting
+	$row_alt = str_replace("'", "", $row_alt);   /// for alt tag formatting
+	$row_alt = str_replace("&", "", $row_alt);   /// for alt tag formatting
+	$row_alt = str_replace('&amp;', '', $row_alt);   /// for alt tag formatting
+	 
+		  
+   echo'
+   
+    <div class="slidertext" style="font-size:12pt;border: 0 solid #CCC;padding:4px;height:340px;">
+      <a class="red" href="'.$row1["cat_url"].'"><img class="lazy" data-src="'.$url.'/cats/'.$row1["cat_image"].'?tr=w-424,h-340" alt="'.date("Y").',ellensburg,event,'.$row_alt.'"></a>
+      
+
+
+<a class="red" href="'.$row1["cat_url"].'"><div style="font-family:Arial;padding:12px 0 0 0;text-align:left;text-transform:uppercase;font-size:13pt">
+<strong>'.$row1["cat_name"].'</strong></div></a>
+
+
+<div style="text-transform:uppercase;font-size:12pt; text-align:left;margin: 8px 0 12px 0">  
+
+
+'.date("M d",strtotime($row1["cat_date"])).''; if($row1["cat_enddate"] !='0000-00-00' && $row1["cat_enddate"] !=$row1["cat_date"])
+
+{echo' -<span style="color:#777">';
+
+if ( date("m",strtotime($row1["cat_date"])) < date("m",strtotime($row1["cat_enddate"]))) {
+																		  
+	echo' 
+'.date("M d",strtotime($row1["cat_enddate"])).'</span>	
+	
+	';}else{ echo'
+	
+	
+	'.date("d",strtotime($row1["cat_enddate"])).'</span>'; }
+
+}  echo'</div>
+
+
+
+
+
+
+
+
+
+ </div>
+ 
+ 
+ ';
+ 
+}?>
+ 
+ </section>
+ 
+ 
+ <br>
+
+
+  <a href="https://www.myellensburg.com/events/">
+     <div style="background-color:#0f0f0f;padding:12px;border-radius:4px;;margin: 0 auto;font-family:Arial, Helvetica, sans-serif;font-size:14pt;width:292px;text-align:center;color:#fff"> Explore More Events </div></a>
+     
+     
+     
+    
+ 
+ 
+    </div>    </div>
+    
+    
+    <!--  new event slider -->
+    
+    
+    <?php //} ?>
+    
+    
+    
+    
+    
+
+<?php  if (empty($c_ref)) {           //if (isset($_GET["hashtag"]))  { ?>      
+
+
+
+
+
+
+
+
+<?php }//}  ?>
+
+
+
+
+
+
+
+<?php } 
+
+          }    ?>
+          
+          
+          
+          <?php    if(isset($c_ref) && $cat_show_carousel =='1' or isset($_GET["carousel"])) {
+   
+   //include("includes/carousel_slider.php");  ?>
+   
+   
+   <div align="center">
+   <iframe src="<?php print $url;?>/mobile_carousel_slider_frame.php" scrolling="no" width="100%" height="280" frameborder="0" style="border: 0px solid #333;"></iframe>
+   </div>
+   
+   
+     <?php   }  ?>
+
+   
+   
+   
+   
+   
+          
+          
+          
+           <a id="signup"></a>
+
+
+
+<div style="margin: 0 auto; text-align:center;">
+<?php	    include("newsletter_signup.php");  ?>
+
+
+<?php     if (isset($email_added) && $email_added ==true)  {  ?>
+<br>
+
+<div style="font-size:10pt;color:#555;font-family:Arial;">Please add amy@kittitascountychamber.com to your email safelist to ensure newsletter deliveries.</div>
+
+<?php } ?>
+
+</div>
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <form id="hello" action="https://www.myellensburg.com/customize-your-trip/" method="post" target=_parent style="display: none;width:100%;max-width:660px;background-color:#3365ae;color:#fff;border: 6px solid #fff; border-radius:12px;background-image: url(https://www.myellensburg.com/uploads/customize-your-trip-bg2.jpg); background-size:cover; background-position:center center;position:relative;">
+    
+    <div align="center">
+    <img src="https://www.myellensburg.com/images/myellensburg-logo.png" style="margin: 0 auto" />
+    </div>
+    
+    <br />
+<br />
+
+    
+    
+        <span style="font-size:18pt">
+            I Want to Experience...
+        </span>
+        
+        
+        <select name="q1" style="float:right; background-color:#fff;color:#3365ae;border: 1px solid #fff;border-radius:4px; padding:8px;width:300px;">
+	
+	<option value="outdoor-adventure" selected>An Outdoor Adventure</option>
+	<option value="family-fun">Friends & Family Fun</option>
+    <option value="arts-culture">Arts & Culture</option>
+    
+    </select>
+	
+    
+    
+       
+            
+            <br />
+            
+<br />
+ <span style="font-size:18pt">
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I Am...
+        </span>
+       
+            
+        <select name="q2" style="float:right; background-color:#fff;color:#3365ae;border: 1px solid #fff;border-radius:4px; padding:8px;width:300px;">
+	
+	<option value="active-explorer" selected>An Active Explorer</option>
+	<option value="connoisseur-of-arts">A Connoisseur of Arts</option>
+    <option value="history-lover">A History Lover</option>
+    <option value="foodie">A Foodie</option>
+    <option value="social-butterfly">A Social Butterfly</option>
+    
+    </select>
+       
+            <!--<input data-fancybox-close type="button" class="btn btn-primary" value="Submit" />-->
+            
+            
+            <br />
+<br />
+ <span style="font-size:18pt">
+            I'm Also Interested In...
+        </span>
+        
+      <select name="q3" style="float:right; background-color:#fff;color:#3365ae;border: 1px solid #fff;border-radius:4px; padding:8px;width:300px;">
+	
+	<option value="beer-wine" selected>Craft Beer & Local Wineries</option>
+	<option value="local-events">Local Events</option>
+    <option value="museums-historic-sites">Museums & Historic Sites</option>
+    <option value="getting-my-eat-on">Getting My Eat On</option>
+    <option value="wildlife-viewing">Wildlife Viewing</option>
+    
+    </select>
+        
+        <br />
+<br />
+
+        
+            
+            <input type="submit" name="Submit" value="View Recommendations" class="cmt-btn" />
+        
+    </form>
+    
+    
+    
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <?php if (empty($c_ref))  { ?>
+      
+                
+<div style="background-color:#e7721c;padding:24pt;color:#fff;font-family:TrendSansOne;letter-spacing:-1px;font-size:16pt;margin: 0 auto; text-align:center;">
+
+
+LOOKING FOR THE ULTIMATE ELLENSBURG EXPERIENCE?  <a data-fancybox="hello" data-src="#hello" href="javascript:;"><div style="border: 2px solid #fff;border-radius:4px;;display:inline-block;padding:12px;margin: 20px 0 0 0;background-color:#fff;"> CUSTOMIZE YOUR TRIP </div></a>
+
+
+</div>
+      
+      <?php   } ?>
+            
+            
+                
+     <div style="background-color:#fff;color:#fff;padding:0;">         
+            
+<script async src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+<ul class="juicer-feed" data-feed-id="myellensburg-1064f64e-a346-4cf9-9264-6df68c726633"></ul>
+            
+            </div>
+            
+      
+            
+            <!--
+            
+            
+     <div style="background-color:#225493;color:#fff;padding:24pt;">    
+     <div style="width:90%;text-align:center">
+     
+   <div style="font-size:34pt;font-family:TrendSansOne;letter-spacing:-3px;line-height: 38pt;">  NO SPAM. <span style="color:#e7721c;">ALL FUN.</span> </div>
+   
+   <br />
+<br />
+
+   Sign up for our FREE newsletter email to get the latest details<br />
+on all things Ellensburg! Your inbox will thank you.
+   
+   
+   </div>
+<div style="text-align:center;line-height: 18pt;"> 
+
+<br>
+<br>
+
+
+<div style="background-color:#e7721c;padding:14px;color:#fff;border-radius:4px;"><a href="https://www.myellensburg.com/?signup#signup" class="white">I'm in - Sign me Up</a>
+
+</div>
+<br>
+<br>
+
+
+  </div>
+            
+            
+            </div>      -->
+            
+            
+
+           
+            
+          
+          
+<div style="background-color:#e7721c;padding:24pt;margin: 0 auto; text-align:center">
+
+<a href="https://www.myellensburg.com/play/"><img class="lazy" data-src="<?php print $url;?>/images/footer-icons-explore.jpg?tr=w-143,h-95"></a>
+<a href="https://www.myellensburg.com/eat/"><img class="lazy" data-src="<?php print $url;?>/images/footer-icons-dine.jpg?tr=w-143,h-95"></a>
+<a href="https://www.myellensburg.com/events/"><img class="lazy" data-src="<?php print $url;?>/images/footer-icons-events.jpg?tr=w-143,h-95"></a>
+<a href="https://www.myellensburg.com/plan/gathering-spaces/"><img class="lazy" data-src="<?php print $url;?>/images/footer-icons-gather.jpg?tr=w-143,h-95"></a>
+<a href="https://www.myellensburg.com/stay/"><img class="lazy" data-src="<?php print $url;?>/images/footer-icons-stay.jpg?tr=w-143,h-95"></a>
+<a href="https://www.myellensburg.com/media/media-room/"><img class="lazy" data-src="<?php print $url;?>/images/footer-icons-media.jpg?tr=w-143,h-95"></a>
+<a target=_blank href="https://centralwashingtonoutdoor.com/outdoor-activities/excursion-vendors/"><img class="lazy" data-src="<?php print $url;?>/images/footer-icons-excursions.jpg?tr=w-143,h-95"></a>
+
+</div>  
+            
+            
+            
+            
+
+<div style="background-color:#f0f0f0;color:#000;width:100%">
+
+<br />
+<div style="padding:14px;margin: 0 auto; text-align:center;">
+
+<span style="font-size:18pt;font-family:TrendSansOne;letter-spacing:-1px;"><strong>Welcome to My Ellensburg</strong></span>
+
+
+<br />
+<br />
+<br />
+
+<div style="margin: 0 auto; text-align:center;max-width:80%;line-height:21pt;">
+Let us welcome you to My Ellensburg, a central destination that draws on its extraordinary past to create traditional small-town charm. At first glance, you may observe our historic buildings and their intricate facades, but looking within can reveal colorful art forms, celebrations of quirky events, and bold, bustling restaurants. The collide of what is old and what is new fills our town with character and makes it truly one-of-a-kind.
+
+
+<br />
+<br />
+
+
+With these two worlds merging to become one, Ellensburg boasts a multitude of diverse activities, awaiting those ready to explore our land and historic downtown. Let us introduce you to the local businesses that serve up a taste of hometown hospitality. We can guide you through the area's diverse art scene, send you outdoors for unforgettable adventures, and take you on a tour of our rich local history, ending with a comfortable place to rest at the end of the day.
+
+</div>
+<br />
+<br />
+
+
+
+<a href="https://www.myellensburg.com/media/media-room/branding-statement/">
+     <div style="background-color:#0f0f0f;padding:12px;border-radius:4px;margin: 0 auto;font-family:Arial, Helvetica, sans-serif;font-size:14pt;width:292px;text-align:center;color:#fff"> READ MORE </div></a>
+     
+     <br />
+
+</div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="background-color:#0f0f0f;color:#fff;width:100%">
+
+<br />
+<br />
+
+
+<div style="text-align:center">
+<a href="https://www.myellensburg.com/plan/maps/"><img src="<?php print $url;?>/images/get-a-guide-2021.jpg" style="width:250px" /></a>
+
+<br>
+<br>
+
+
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,ar,zh,cs,fr,de,el,ga,it,ja,ko,la,pt,ru,sv,th,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+</div>
+<div style="text-align:right;line-height: 18pt;"><!-- Site Map &nbsp;|&nbsp;  -->
+
+
+<br>
+<br>
+
+
+&copy; 2022 <a class="white" href="https://www.myellensburg.com/">MyEllensburg&trade;</a><br>
+
+<a href="https://www.myellensburg.com/privacy/" class="white">Privacy Statement</a>  |  
+
+<a href="https://www.myellensburg.com/about/" class="white">About Us</a> | 
+
+<a href="https://www.myellensburg.com/media/media-room/contactus/" class="white">Contact Us</a>
+
+<br /><br />
+
+
+<span style="color:#b3b2b2;font-size:10pt;">
+
+<!--&copy; 2021 MyEllensburg&trade;  -->Owned by Kittitas County Chamber of Commerce
+
+<br />
+
+<span style="font-size:8pt;">Site created under contract by: Genesis Marketing </span>
+
+</span>
+<br />
+<br />
+
+
+
+
+<a target=_blank href="https://twitter.com/myellensburg"><img class="image" src="<?php print $url;?>/images/footer-icons-twitter.jpg" style="height:25px;" /></a>
+<a target=_blank href="https://www.facebook.com/myellensburg"><img class="image" src="<?php print $url;?>/images/footer-icons-facebook.jpg" style="height:25px;" /></a>
+<a target=_blank href="https://www.instagram.com/myellensburg/"><img class="image" src="<?php print $url;?>/images/footer-icons-instagram.jpg" style="height:25px;" /></a>
+<a target=_blank href="https://www.pinterest.com/myellensburg/"><img class="image" src="<?php print $url;?>/images/footer-icons-pinterest.jpg" style="height:25px;" /></a>
+<a target=_blank href="https://www.youtube.com/user/myellensburg"><img class="image" src="<?php print $url;?>/images/footer-icons-youtube.jpg" style="height:25px;" /></a>
+<a target=_blank href="https://www.tiktok.com/@myellensburg?"><img class="image" src="<?php print $url;?>/images/footer-icons-tiktok.jpg" style="height:25px;" /></a>
+
+
+
+<br />
+<br />
+<br />
+<br>
+<br>
+
+
+</div>
+
+
+
+
+
+<br />
+<br />
+</div>
+
+
+
+
+
+  
+    </div> <!-- end   <div class="container">  -->   
+    
+    
+    
+    
+    
+<?php  if(isset($c_ref) && $c_ref=='263' or isset($c_ref) && $c_ref=='263/' or isset($c_ref) && $c_ref=='126' or isset($c_ref) && $c_ref=='126/' or isset($c_ref) && $c_ref=='950' or isset($c_ref) && $c_ref=='950/' or isset($c_ref) && $c_ref=='410' or isset($c_ref) && $c_ref=='410/' or isset($c_ref) && $c_ref=='120' or isset($c_ref) && $c_ref=='120/'){  ?>
+
+ <!--<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
+  <script async src="<?php print $url;?>/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+      /*$(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });*/
+	  $('.variable').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToScroll: 1,
+  variableWidth: false,
+}); 
+    });
+  </script>
+  
+  
+  
+  
+ <?php  } ?> 
+  
+  
+  
+    <?php if(isset($c_ref)) { ?>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559ebc2260e56be2"></script> -->
+
+<script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5840704d1846b635"></script>   <?php  } ?> 
+
+    <?php 
+	
+	/*
+	
+	if(isset($c_ref) && $c_ref =='357' or isset($c_ref) && $c_ref =='392' or isset($c_ref) && $c_ref =='188' or isset($c_ref) && $c_ref =='415' or isset($c_ref) && $c_ref =='405' or isset($c_ref) && $c_ref =='452' or empty($c_ref))  {  ?>
+
+<!--<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>-->
+	<script async src="https://www.myellensburg.com/hiddentreasures/jquery.fancybox.min.js"></script>
+    
+    <?php }     */              ?>
+    
+    
+  <script async src="https://www.myellensburg.com/hiddentreasures/jquery.fancybox.min.js"></script>
+    
+     <a href="#" class="back-to-top" style="display: inline;"><i class="fa fa-arrow-circle-up"><img style="margin-top:12px" src="<?php print $url;?>/uploads/up.png"></i></a>
+
+
+<script>
+
+  window.addEventListener('load',function(){
+
+    var set_int=setInterval(function(){
+
+      if(jQuery('span:contains("Thank you for signing up with us today!")').is(':visible')){
+
+        ga('send','event','form','submit','signup');
+
+        clearInterval(set_int);
+
+      }
+
+    },1000);
+
+  })
+
+</script>
+
+
+
+
+
+<?php if(isset($c_ref) && $c_ref =='451' or isset($c_ref) && $c_ref =='126' or isset($c_ref) && $c_ref =='950'  or isset($c_ref) && $c_ref =='951' or isset($c_ref) && $c_ref =='263')  {  ?>
+
+<!--<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
+  
+  <!--<script async src="<?php print $url;?>/slick/slick.js" type="text/javascript" charset="utf-8"></script>-->
+  
+  
+  
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="<?php print $url;?>/slick/slick.min.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+      /*$(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });*/
+	  $('.variable').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToScroll: 3,
+  variableWidth: true
+}); 
+
+  </script>
+  
+ <?php } 
+ 
+ 
+  if(empty($c_ref))  { ?> 
+ 
+
+  
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="<?php print $url;?>/slick/slick.min.js"></script>
+
+
+
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $('.autoplay').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  centerMode: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+
+$('.variable-width').slick({
+  infinite: true,
+  speed: 300,
+  dots: true,
+  slidesToShow: 1,
+  autoplay: true,
+  centerMode: false,
+  variableWidth: false,
+});
+
+
+    });
+  </script>
+  
+  
+  <?php } ?>
+ 
+  <?php if(isset($c_ref) && isset($cat_parent) && $cat_parent =='452') { ?> <!-- <script src="https://code.responsivevoice.org/responsivevoice.js?key=MkAZX3cq"></script>-->
+  
+  
+   <script async src="https://widget.websitevoice.com/DBdOWD4u5l-J1daNNGpm5w"></script>
+<script>
+  window.wvData=window.wvData||{};function wvtag(a,b){wvData[a]=b;}
+  wvtag('id', 'DBdOWD4u5l-J1daNNGpm5w');
+  wvtag('widget-style', {
+    backgroundColor: '#e38033'
+  });
+</script>
+
+<?php }  
+  
+  
+	
+	
+	
+	
+	
+	
+	
+	 if(isset($c_ref) && $c_ref !='5')  { 
+	  
+	  ?>  
+       
+       
+       
+       <!-- begin olark code -->
+<script type="text/javascript" async> ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('2210-410-10-7656');</script>
+<!-- end olark code -->
+
+<?php  }   //print session_id(); 
+
+
+
+if(isset($c_ref) && $c_ref =='5')  {   //date picker        ,  disable: ['29/07/2017', '30/07/2017', '31/07/2017', '01/08/2017']      ?>
+
+
+<script type="text/javascript">
+    var foopicker = new FooPicker({
+      id: 'datepicker',
+      dateFormat: 'mm/dd/yyyy',
+      disable: ['29/07/2017', '30/07/2017', '31/07/2017', '01/08/2017']
+    });
+    var foopicker2 = new FooPicker({
+      id: 'datepicker2',
+	  dateFormat: 'mm/dd/yyyy'
+    });
+  </script>
+
+
+
+
+<?php }   ?>
+
+
+
+
+
+</body>
+</html>

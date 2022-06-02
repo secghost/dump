@@ -1,0 +1,254 @@
+<br />
+    <style>
+ 
+  .signup-form { height:44px;font-size:11pt;font-weight:bold; width:200px;cursor:pointer; background-color:#0b589d; color:#fff; border-radius:0.4em 0.4em 0.4em 0.4em; 
+	-moz-border-radius:0.4em 0.4em 0.4em 0.4em; text-shadow: 1px 1px #044c28;
+	border: 1px solid #044c28; margin: 0 33px 0 0;  }
+	
+	.signup-form:hover { background-color:#e38034; text-shadow: none}
+	
+	</style>
+
+<div style="font-size:14pt;max-width:70%;margin: 0 auto; text-align:center;color:#0b589d;font-family:TrendSansOne;line-height:24pt;">
+<span style="font-size:21pt;color:#e38034">Stay in the know!</span><br />
+Sign up for FREE newsletters on the latest Ellensburg updates!
+</div>
+	 
+<?php	
+
+
+
+ echo'<form method="POST" ACTION="https://www.myellensburg.com/signup/#signup">';   //}              
+ 
+ 
+ $email_err ='';
+     
+   
+     if(isset($_POST["form_email"])){     ?>
+     
+     
+     <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<?php 
+
+
+  // $generate_code_sec =date("ga"); 
+$generate_code_sec =time();    $generate_code =$generate_code_sec;     //$generate_code_f =number_format((($generate_code)*1),0);
+
+           $generate_code_f=substr($generate_code,6,3);   $generate_code_g=substr($generate_code,8,2);   $generate_code_h =$generate_code_f + $generate_code_g;
+		   
+		   
+           
+           
+           
+           
+	 
+	 
+	 //// or empty($validation_confirmed)
+	 
+	 
+	  if(isset($_POST["form_email"]) &&  (strlen($_POST["form_email"]) < 7) or isset($_POST["form_email"]) && (strlen($_POST["form_email"]) > 100) or !filter_var($_POST["form_email"], FILTER_VALIDATE_EMAIL))  
+	
+	{   $email_err ='Please enter a valid email address.';  }
+	
+	
+	
+	
+          elseif ($_POST["form_Gcode"] && $_POST["form_Gcode"] !=$_POST["form_Galidate_code"])  {
+	  $email_err ="<font color=#b35355 size=3>(!) <em>The Validation Code entered was Invalid, please try again...</em></font><br />";} 
+
+
+
+
+
+	 
+	 
+			
+			
+			//elseif (!filter_var($_POST["form_email"], FILTER_VALIDATE_EMAIL)) {  $email_err ='Error, please enter a valid address.';
+	 
+	 
+	 else{ 	   $thisform_email=strtolower($_POST["form_email"]);
+
+        $dupe_query = $mysqli->query("SELECT * FROM `emails` where `emailaddress`='".$thisform_email."' && `emailaddress`!=''");
+		 //  $dupe_result = mysql_query($dupe_query);
+			// $num_dupes = mysql_num_rows($dupe_result);
+			 
+			 $num_dupes =  $dupe_query->num_rows; 
+
+				if($num_dupes > '0'){     $email_err ='You have already signed up!';  } 
+				
+				
+				
+				
+				if($num_dupes == 0){     $capturemail ='1'; 
+				
+				
+				
+								
+				$uri = $_SERVER['REQUEST_URI'];
+//echo $uri; // Outputs: URI
+ 
+$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+ 
+$this_url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+//echo $url; // Outputs: Full URL
+
+
+
+
+
+
+if ($_POST["form_Gcode"] && $_POST["form_Gcode"] ==$_POST["form_Galidate_code"])  {
+
+
+
+	
+	$sql=$mysqli->query("INSERT INTO `emails` (`emailaddress`,`emaildate`,`url`,`emailip`) VALUES ('".$thisform_email."','".date("Y-m-d")."','".$this_url."', '".$_SERVER['REMOTE_ADDR']."')");
+           // $sqlresult=mysql_query($sql);  //mysql_close($connection); 
+
+
+                                  if(!$sql){}else{    
+								  
+								  
+								  
+								 // if ($_POST["form_Gcode"] && $_POST["form_Gcode"] !=$_POST["form_Galidate_code"])  {
+	  //  $email_response ="<font color=#b35355 size=3>(!) <em>The Validation Code entered was Invalid, please try again...</em></font><br />";} 
+		
+		
+		
+		         // else  {
+		
+         
+echo'
+
+
+<div style="font-size:14pt;margin: 30px auto; width:80%;font-family:Arial;">
+
+<strong>Thanks for joining the Ellensburg newsletter list! We\'re eager to show you the highlights of our city.</strong>
+ <br />
+<br />
+
+
+By signing up, you will receive local insight on the top events, attractions, things to do, and more in our area. If you\'re as excited about this as we are, you may want to check out everything there is to do in Ellensburg right now! <a href="https://www.myellensburg.com/play/">Click here</a> for more information about our city and begin planning your dream vacation today!
+ <br />
+<br />
+
+
+We hope to see you soon!
+
+</div>
+';        $email_added =true;   // }
+
+
+
+			
+			
+			
+			}   ////   end   if(!$sql){}else{  
+			
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+         
+	            }   ///end 	if($num_dupes == 0){ 
+			  
+			       }  ////end  else{ 	   $thisform_email=strtolower($_POST["form_email"]);	 
+	 
+	                   } ///end if(isset($_POST["form_email"])){ 
+	  
+	  
+	  
+	  
+	
+		
+		 
+		 
+	 
+	  //  if(empty($_POST["form_email"]) && empty($email_err) && empty($device)){    $evalue ='Sign Up for our Newsletter.';   }
+		
+		// if(empty($_POST["form_email"]) && empty($email_err) && isset($device)){    $evalue ='Get our Newsletter!';   }
+		
+		
+		
+		
+		if ($_POST["form_Gcode"] && $_POST["form_Gcode"] !=$_POST["form_Galidate_code"] && isset($_POST["form_email"]))  {
+					
+			$email_err ="<font color=#d74030 size=3>The Validation Code entered was Invalid, please try again...</font><br />";} 
+			
+			
+			
+		
+			
+			
+			
+		
+            ?> 
+             
+             
+          <div style="margin-top:33px;">       
+          
+                 <?php if (isset($email_err))  {echo '<div style="color:#d74030;">'.$email_err.'</div><br /><br />';}  ?>
+          
+             
+             <input type="email" maxlength="42" name="form_email" style="width:380px;height:60px;border:1px solid #000;padding: 0 0 0 10px;-moz-border-radius: 4px;-webkit-border-radius: 4px; border-radius: 4px;color:#0b589d;text-align:left;font-size:12pt;" value=<?php if(isset($_POST["form_email"]) && $_POST["form_email"] !=''){echo'"'.$_POST["form_email"].'"';}
+			 
+			 else{?> "" placeholder="Enter your email here"<?php echo'';}?>>
+             <input type="submit" name="submit" value="SIGN UP" class='signup-form' <?php if (isset($email_added)){ echo'disabled="disabled"'; } ?> style="margin-left:-119px;width:99px">
+             </div>
+             
+             
+             
+             
+             
+             
+             
+     <?php    /*   echo'[#'.$new_signup.']';  */   
+	 
+	 
+	 
+	  if(isset($c_ref) && $c_ref =='920' && isset($_POST["form_email"]) && $_POST["form_email"] !='' && $email_err !='Please enter a valid email address.' && $email_err !='You have already signed up!' && empty($email_added))  {       
+        
+
+echo"
+
+<br /><font color=#b35355>*</font>Enter the following Validation Code:
+<br />
+";
+
+
+ // $generate_code_sec =date("ga"); 
+$generate_code_secb =time();    $generate_codeb =$generate_code_secb;     //$generate_code_f =number_format((($generate_code)*1),0);
+    $generate_code_fb=substr($generate_codeb,6,3);   $generate_code_gb=substr($generate_codeb,8,2);   $generate_code_hb =$generate_code_fb + $generate_code_gb;
+		   
+		   
+		   
+echo'
+<div style="margin: 8px 0 0 9px; border:0px solid #ccc; font-size:23pt; font-family:\'Special Elite\', Courier,Verdana,Athletic,Arial,Helvetica;letter-spacing:0.03em;font-weight:bold; color:#000; " disabled=disabled><em>'.$generate_code_hb.''.$generate_code_gb.'</em></div>
+
+<input type="hidden" name="form_Galidate_code" value="'.$generate_code_hb."".$generate_code_gb.'">
+<input type="text" name="form_Gcode" class="form_text" style="width:150px;height:33px;margin: -8px 0 0 5px;text-align:center;font-size:15pt;color:#0074c8; font-family:MontBold;">
+
+';
+	 }
+     
+             
+             
+   ?>          
+
+             
+             
+             </form>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3939850173581632" data-ad-slot="7360118643" data-ad-format="auto" data-full-width-responsive="true"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+            
+          
