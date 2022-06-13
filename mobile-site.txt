@@ -483,9 +483,9 @@ print  $mobileheader_include_clean;
 <input type="text" name="search_txt" value="<?php print $search_txt;?>" style="z-index:10;position:relative;background-repeat:no-repeat;width:82%; height:33px; padding:0 0 0 12px;background-color: #fff; border: 0px solid #CCC;font-size:12pt;color:#444;" <?php print $prefill;?>>
 </td><td width="50"><div id="header">
 		<label for="main-nav-check" class="toggle" onClick="" title="Menu">&#x2261;</label>
-</div></td></form>
+	</div></td></form>
 </tr></table>
-	<ins class="adsbygoogle"
+<ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3939850173581632"
      data-ad-slot="7360118643"
@@ -494,6 +494,7 @@ print  $mobileheader_include_clean;
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 <div style="position:relative;z-index:999999;background-image:url(<?php print $url;?>/images/ss/top-slide-bg.png); background-repeat:no-repeat; background-size: 100%; height:50px;"></div>
 
 <!--
@@ -1213,7 +1214,7 @@ echo'</div>';
 	 
     include("includes/event-calendar.php");    }
 	 
-	 if($c_ref =='183'){   include("includes/add-business-event-mobile.php");    }
+	 if($c_ref =='183'){  /* include("includes/add-business-event-mobile.php");  */  }
 	  
         if($c_ref =='103'){    $c_ref ='5';}   
 	 
@@ -2173,15 +2174,15 @@ echo'
   
   
 
- if(isset($c_ref) && $c_ref =='178'){  include("includes/contact_form_mobile.php");  }
+ if(isset($c_ref) && $c_ref =='178'){ /*  include("includes/contact_form_mobile.php");  */  }
  
-  if(isset($c_ref) && $c_ref =='270'){  include("includes/business_profile_mobile.php");  }
+  if(isset($c_ref) && $c_ref =='270'){ /*   include("includes/business_profile_mobile.php");  */  }
   
-    if(isset($c_ref) && $c_ref =='217'){  include("includes/visitor-center-form-mobile.php");  }
+    if(isset($c_ref) && $c_ref =='217'){ /*   include("includes/visitor-center-form-mobile.php");  */  }
 	
-	   if(isset($c_ref) && $c_ref =='205'){  include("includes/visit_request_mobile.php");  }
+	   if(isset($c_ref) && $c_ref =='205'){ /*   include("includes/visit_request_mobile.php");  */  }
 	   
-	     if(isset($c_ref) && $c_ref =='239'){  include("includes/visitors-guide-form_mobile.php");  }
+	     if(isset($c_ref) && $c_ref =='239'){ /*   include("includes/visitors-guide-form_mobile.php");  */  }
 	   
 	       if(isset($c_ref) && $c_ref =='195'){  
 		   
@@ -2189,7 +2190,7 @@ echo'
 		   
 		   echo'<div style="margin: 20px;">';
 		   
-		   include("includes/image_request.php"); 
+		 /*    include("includes/image_request.php");  */
 		   
 		     echo'</div>';
 			  }
