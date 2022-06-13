@@ -281,8 +281,7 @@ if(isset($c_ref) && isset($device)){  	if($pgrow["cat_mobiledesc"] !=''){	   $lo
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3939850173581632"
-     crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3939850173581632" crossorigin="anonymous"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>'; if(isset($title)){$header_include .=' '.$title.'';}else{ $header_include .='Welcome to the Official Tourism Site for the City of Ellensburg, Washington | Kittitas County'; } $header_include .='</title>'; 
@@ -2258,7 +2257,7 @@ print  $header_include_clean;
 <a href="https://www.myellensburg.com/search.php"><img src="<?php print $url;?>/images/header-icons-search.jpg" align="absmiddle" style="height:55px;" /></a>
 <a href="https://www.myellensburg.com/media/media-room/contactus/"><img src="<?php print $url;?>/images/header-icons-help.jpg" align="absmiddle" style="height:55px;" /></a>
 <a href="https://www.facebook.com/myellensburg" target=_blank><img src="<?php print $url;?>/images/header-icons-share.jpg" align="absmiddle" style="height:55px;" /></a>
-  <ins class="adsbygoogle"
+<ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3939850173581632"
      data-ad-slot="3604706469"
@@ -2269,6 +2268,7 @@ print  $header_include_clean;
 </script>
 </div>
    </div>        
+  
  
  
   
@@ -2384,14 +2384,14 @@ if(isset($_GET["zoomslider"])){    ?>
                     <div class="caption" style="margin-top:-100px;letter-spacing: -3px;line-height:34pt;font-family:TrendSansOne,Arial,Verdana;font-size:58pt;color:#FFF;font-weight:normal">
                     
                     
-                   PLAN
+                   PLAY
                     
 <br /><br />
 
 
-<span style="font-family:BrandPro; font-size:32pt;color:#fff;line-height:38pt;letter-spacing: 1px;">Let us welcome you</span><br />
+<span style="font-family:BrandPro; font-size:32pt;color:#fff;line-height:38pt;letter-spacing: 1px;">There are many recreation and outdoor activities to choose from in Ellensburg!</span><br />
 
-<div style="position: relative; z-index: 999990; background-color:#000; padding: 4px;letter-spacing: 0px; font-size:14pt; font-family:Arial, Helvetica, sans-serif;border-radius:4px;width:300px;margin: 10px auto;"><a class="white" href="<?php print $url;?>/plan/">Plan Your Visit</a></div></div>
+<div style="position: relative; z-index: 999990; background-color:#000; padding: 4px;letter-spacing: 0px; font-size:14pt; font-family:Arial, Helvetica, sans-serif;border-radius:4px;width:300px;margin: 10px auto;"><a class="white" href="<?php print $url;?>/plan/">Things To Do</a></div></div>
 
 
 
@@ -2600,7 +2600,10 @@ echo'
 <br />
 <br /><b>
 <a class="orange" href="'.$row["cat_url"].'">Learn More</a></b></div>
-</div>';
+
+</div>
+
+	';
 
 	
 
@@ -3708,17 +3711,17 @@ if($c_ref =='518')  {
 		
 		
 	
-	
+	/////////////////////Turning OFF fomr Hacker
  
  
 
-      if($c_ref =='178'){  include("includes/contact_form.php");  }
+      //if($c_ref =='178'){  include("includes/contact_form.php");  }
 	  
-	     if($c_ref =='270'){  include("includes/business_profile.php");  }
+	     //if($c_ref =='270'){  include("includes/business_profile.php");  }
 	  
-	        if($c_ref =='217'){  include("includes/visitor-center-form.php");  }
+	        //if($c_ref =='217'){  include("includes/visitor-center-form.php");  }
 			
-			  if($c_ref =='239'){  include("includes/visitors-guide-form.php");  }
+			  //if($c_ref =='239'){  include("includes/visitors-guide-form.php");  }
 			  
 			  
 			  
@@ -5534,7 +5537,7 @@ echo'
 
 
 
-        if($c_ref =='183'){   include("includes/add-business-event.php");    }
+        if($c_ref =='183'){  /* include("includes/add-business-event.php");  */  }
 				   
 		             if($c_ref =='5'){    echo' <div style="width:68%;border: 0 solid #f0f0f0;">';  include("includes/event-calendar.php");    echo'</div>';  }
 				   
@@ -6188,11 +6191,11 @@ echo'
 ';
 
         
-		if($c_ref =='178'){  include("includes/contact_form.php");  }
+		if($c_ref =='178'){ /* include("includes/contact_form.php"); */   }
 		
-		if($c_ref =='205'){  include("includes/visit_request.php");  }
+		if($c_ref =='205'){  /*  include("includes/visit_request.php");   */  }
 		
-		  if($c_ref =='195'){  include("includes/image_request.php");  }
+		  if($c_ref =='195'){ /* include("includes/image_request.php");   */ }
 		  
 		
 		 include("includes/listings.php");  
@@ -6634,7 +6637,7 @@ $sqlquery1 = $mysqli->query("SELECT * FROM `categories` WHERE `parent_cat` ='108
 
 <br />
 <div style="margin: 20px auto; text-align:center; margin-left:29px;">
-<?php	  include("newsletter_signup.php");  ?>
+<?php	 // include("newsletter_signup.php");  ?>
 
 
 <br /><br />
@@ -6645,8 +6648,8 @@ $sqlquery1 = $mysqli->query("SELECT * FROM `categories` WHERE `parent_cat` ='108
 <br />
 
 <div style="font-size:10pt;color:#555;font-family:Arial;">Please add amy@kittitascountychamber.com to your email safelist to ensure newsletter deliveries.</div>
-
 </div>
+
 <br />
 
 <?php  }  ?>
@@ -6659,7 +6662,11 @@ $sqlquery1 = $mysqli->query("SELECT * FROM `categories` WHERE `parent_cat` ='108
   //// include("includes/weather-logos.php");   ?>
    
    
+  
+
 <div style="clear:both;"></div>
+
+
 </div>
   </div>
   
